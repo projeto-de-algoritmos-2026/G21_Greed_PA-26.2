@@ -1,0 +1,5002 @@
+[
+  {
+    "name": "Guarulhos - Porto 15",
+    "country": "Brasil",
+    "region": "Sao Paulo",
+    "latitude": -23.429305,
+    "longitude": -46.413518,
+    "capital": false,
+    "id": 3629,
+    "score": 61
+  },
+  {
+    "name": "Luanda - Setor Industrial 6",
+    "country": "Angola",
+    "region": "Angola",
+    "latitude": -8.730706,
+    "longitude": 13.361661,
+    "capital": false,
+    "id": 1633,
+    "score": 47
+  },
+  {
+    "name": "Dakar - Porto 15",
+    "country": "Senegal",
+    "region": "Senegal",
+    "latitude": 14.859571,
+    "longitude": -17.604398,
+    "capital": false,
+    "id": 3791,
+    "score": 60
+  },
+  {
+    "name": "Acra - Parque das Nacoes 13",
+    "country": "Gana",
+    "region": "Gana",
+    "latitude": 5.488247,
+    "longitude": -0.00746,
+    "capital": false,
+    "id": 3310,
+    "score": 71
+  },
+  {
+    "name": "Casablanca - Bairro Novo 8",
+    "country": "Marrocos",
+    "region": "Marrocos",
+    "latitude": 33.528085,
+    "longitude": -7.480786,
+    "capital": false,
+    "id": 2105,
+    "score": 68
+  },
+  {
+    "name": "Manchester - Planalto 21",
+    "country": "Reino Unido",
+    "region": "Reino Unido",
+    "latitude": 53.575339,
+    "longitude": -2.313545,
+    "capital": false,
+    "id": 5179,
+    "score": 73
+  },
+  {
+    "name": "Ciudad del Este - Zona Oeste 5",
+    "country": "Paraguai",
+    "region": "Paraguai",
+    "latitude": -25.693009,
+    "longitude": -54.609436,
+    "capital": false,
+    "id": 1297,
+    "score": 85
+  },
+  {
+    "name": "Recife - Distrito Historico 10",
+    "country": "Brasil",
+    "region": "Pernambuco",
+    "latitude": -7.922339,
+    "longitude": -34.933201,
+    "capital": false,
+    "id": 2417,
+    "score": 65
+  },
+  {
+    "name": "Aman - Jardim das Flores 12",
+    "country": "Jordania",
+    "region": "Jordania",
+    "latitude": 31.774189,
+    "longitude": 35.912143,
+    "capital": false,
+    "id": 3111,
+    "score": 80
+  },
+  {
+    "name": "Ciudad del Este - Distrito Historico 10",
+    "country": "Paraguai",
+    "region": "Paraguai",
+    "latitude": -25.475606,
+    "longitude": -54.675364,
+    "capital": false,
+    "id": 2497,
+    "score": 36
+  },
+  {
+    "name": "Niteroi - Vila Verde 11",
+    "country": "Brasil",
+    "region": "Rio de Janeiro",
+    "latitude": -22.8791,
+    "longitude": -42.941689,
+    "capital": false,
+    "id": 2697,
+    "score": 53
+  },
+  {
+    "name": "Estocolmo - Parque das Nacoes 13",
+    "country": "Suecia",
+    "region": "Suecia",
+    "latitude": 59.226346,
+    "longitude": 18.07011,
+    "capital": false,
+    "id": 3292,
+    "score": 80
+  },
+  {
+    "name": "Juiz de Fora - Vale 19",
+    "country": "Brasil",
+    "region": "Minas Gerais",
+    "latitude": -21.663215,
+    "longitude": -43.491981,
+    "capital": false,
+    "id": 4603,
+    "score": 39
+  },
+  {
+    "name": "Sao Paulo - Zona Norte 2",
+    "country": "Brasil",
+    "region": "Sao Paulo",
+    "latitude": -23.723163,
+    "longitude": -46.758442,
+    "capital": false,
+    "id": 505,
+    "score": 63
+  },
+  {
+    "name": "Bauru - Distrito Historico 10",
+    "country": "Brasil",
+    "region": "Sao Paulo",
+    "latitude": -22.40769,
+    "longitude": -49.009629,
+    "capital": false,
+    "id": 2439,
+    "score": 95
+  },
+  {
+    "name": "Busan - Vila Verde 11",
+    "country": "Coreia do Sul",
+    "region": "Coreia do Sul",
+    "latitude": 35.283038,
+    "longitude": 129.09163,
+    "capital": false,
+    "id": 2842,
+    "score": 68
+  },
+  {
+    "name": "Aman - Setor Industrial 6",
+    "country": "Jordania",
+    "region": "Jordania",
+    "latitude": 31.871638,
+    "longitude": 35.896717,
+    "capital": false,
+    "id": 1671,
+    "score": 14
+  },
+  {
+    "name": "Amsterda - Planalto 21",
+    "country": "Holanda",
+    "region": "Holanda",
+    "latitude": 52.357431,
+    "longitude": 4.96133,
+    "capital": false,
+    "id": 5182,
+    "score": 59
+  },
+  {
+    "name": "Hong Kong - Distrito Historico 10",
+    "country": "China",
+    "region": "China",
+    "latitude": 22.158411,
+    "longitude": 114.225113,
+    "capital": false,
+    "id": 2605,
+    "score": 63
+  },
+  {
+    "name": "Cuiaba - Vale 19",
+    "country": "Brasil",
+    "region": "Mato Grosso",
+    "latitude": -15.530586,
+    "longitude": -56.231484,
+    "capital": false,
+    "id": 4571,
+    "score": 79
+  },
+  {
+    "name": "Lyon - Setor Industrial 6",
+    "country": "Franca",
+    "region": "Franca",
+    "latitude": 45.850637,
+    "longitude": 4.698699,
+    "capital": false,
+    "id": 1577,
+    "score": 95
+  },
+  {
+    "name": "Cidade da Guatemala - Setor Industrial 6",
+    "country": "Guatemala",
+    "region": "Guatemala",
+    "latitude": 14.798582,
+    "longitude": -90.50874,
+    "capital": false,
+    "id": 1551,
+    "score": 63
+  },
+  {
+    "name": "Sorocaba",
+    "country": "Brasil",
+    "region": "Sao Paulo",
+    "latitude": -23.5015,
+    "longitude": -47.4526,
+    "capital": false,
+    "id": 31,
+    "score": 62
+  },
+  {
+    "name": "Cuiaba - Vila Verde 11",
+    "country": "Brasil",
+    "region": "Mato Grosso",
+    "latitude": -15.685329,
+    "longitude": -56.073764,
+    "capital": false,
+    "id": 2651,
+    "score": 85
+  },
+  {
+    "name": "Maringa - Planalto 21",
+    "country": "Brasil",
+    "region": "Parana",
+    "latitude": -23.251991,
+    "longitude": -51.933486,
+    "capital": false,
+    "id": 5087,
+    "score": 23
+  },
+  {
+    "name": "Diadema - Planalto 21",
+    "country": "Brasil",
+    "region": "Sao Paulo",
+    "latitude": -23.8159,
+    "longitude": -46.643816,
+    "capital": false,
+    "id": 5117,
+    "score": 29
+  },
+  {
+    "name": "Palmas - Setor Industrial 6",
+    "country": "Brasil",
+    "region": "Tocantins",
+    "latitude": -10.05276,
+    "longitude": -48.49672,
+    "capital": false,
+    "id": 1467,
+    "score": 49
+  },
+  {
+    "name": "Sao Jose dos Campos",
+    "country": "Brasil",
+    "region": "Sao Paulo",
+    "latitude": -23.2237,
+    "longitude": -45.9009,
+    "capital": false,
+    "id": 33,
+    "score": 79
+  },
+  {
+    "name": "Nova Deli - Porto 15",
+    "country": "India",
+    "region": "India",
+    "latitude": 28.572518,
+    "longitude": 77.070429,
+    "capital": false,
+    "id": 3814,
+    "score": 13
+  },
+  {
+    "name": "Curitiba - Zona Norte 2",
+    "country": "Brasil",
+    "region": "Parana",
+    "latitude": -25.532202,
+    "longitude": -49.335636,
+    "capital": false,
+    "id": 496,
+    "score": 27
+  },
+  {
+    "name": "Houston - Jardim das Flores 12",
+    "country": "Estados Unidos",
+    "region": "Estados Unidos",
+    "latitude": 29.925577,
+    "longitude": -95.51716,
+    "capital": false,
+    "id": 2996,
+    "score": 54
+  },
+  {
+    "name": "Sydney - Colina 18",
+    "country": "Australia",
+    "region": "Australia",
+    "latitude": -34.005472,
+    "longitude": 151.240462,
+    "capital": false,
+    "id": 4555,
+    "score": 96
+  },
+  {
+    "name": "Feira de Santana - Estacao 16",
+    "country": "Brasil",
+    "region": "Bahia",
+    "latitude": -12.407577,
+    "longitude": -39.060491,
+    "capital": false,
+    "id": 3902,
+    "score": 88
+  },
+  {
+    "name": "Buenos Aires",
+    "country": "Argentina",
+    "region": "Argentina",
+    "latitude": -34.6037,
+    "longitude": -58.3816,
+    "capital": true,
+    "id": 79,
+    "score": 78
+  },
+  {
+    "name": "Viena - Planalto 21",
+    "country": "Austria",
+    "region": "Austria",
+    "latitude": 48.199709,
+    "longitude": 16.467367,
+    "capital": false,
+    "id": 5191,
+    "score": 99
+  },
+  {
+    "name": "Houston - Colina 18",
+    "country": "Estados Unidos",
+    "region": "Estados Unidos",
+    "latitude": 29.704662,
+    "longitude": -95.282933,
+    "capital": false,
+    "id": 4436,
+    "score": 11
+  },
+  {
+    "name": "Islamabad - Zona Norte 2",
+    "country": "Paquistao",
+    "region": "Paquistao",
+    "latitude": 33.748395,
+    "longitude": 73.127434,
+    "capital": false,
+    "id": 700,
+    "score": 29
+  },
+  {
+    "name": "Acra - Jardim das Flores 12",
+    "country": "Gana",
+    "region": "Gana",
+    "latitude": 5.683405,
+    "longitude": -0.153626,
+    "capital": false,
+    "id": 3070,
+    "score": 34
+  },
+  {
+    "name": "Joanesburgo - Vila Verde 11",
+    "country": "Africa do Sul",
+    "region": "Africa do Sul",
+    "latitude": -26.137688,
+    "longitude": 28.122978,
+    "capital": false,
+    "id": 2822,
+    "score": 96
+  },
+  {
+    "name": "Hanoi - Porto 15",
+    "country": "Vietna",
+    "region": "Vietna",
+    "latitude": 20.988878,
+    "longitude": 105.789415,
+    "capital": false,
+    "id": 3808,
+    "score": 56
+  },
+  {
+    "name": "Blumenau - Jardim das Flores 12",
+    "country": "Brasil",
+    "region": "Santa Catarina",
+    "latitude": -26.824626,
+    "longitude": -49.059093,
+    "capital": false,
+    "id": 2935,
+    "score": 90
+  },
+  {
+    "name": "Contagem - Centro",
+    "country": "Brasil",
+    "region": "Minas Gerais",
+    "latitude": -20.078973,
+    "longitude": -44.216638,
+    "capital": false,
+    "id": 285,
+    "score": 78
+  },
+  {
+    "name": "Cuiaba - Planalto 21",
+    "country": "Brasil",
+    "region": "Mato Grosso",
+    "latitude": -15.536887,
+    "longitude": -55.970788,
+    "capital": false,
+    "id": 5051,
+    "score": 58
+  },
+  {
+    "name": "Manaus - Zona Sul 3",
+    "country": "Brasil",
+    "region": "Amazonas",
+    "latitude": -3.289991,
+    "longitude": -59.883375,
+    "capital": false,
+    "id": 724,
+    "score": 88
+  },
+  {
+    "name": "Sofia - Distrito Historico 10",
+    "country": "Bulgaria",
+    "region": "Bulgaria",
+    "latitude": 42.678122,
+    "longitude": 23.356148,
+    "capital": false,
+    "id": 2568,
+    "score": 24
+  },
+  {
+    "name": "Denver - Estacao 16",
+    "country": "Estados Unidos",
+    "region": "Estados Unidos",
+    "latitude": 39.681534,
+    "longitude": -104.970678,
+    "capital": false,
+    "id": 3963,
+    "score": 74
+  },
+  {
+    "name": "Islamabad - Zona Sul 3",
+    "country": "Paquistao",
+    "region": "Paquistao",
+    "latitude": 33.544427,
+    "longitude": 72.971617,
+    "capital": false,
+    "id": 940,
+    "score": 36
+  },
+  {
+    "name": "Feira de Santana - Zona Norte 2",
+    "country": "Brasil",
+    "region": "Bahia",
+    "latitude": -12.270512,
+    "longitude": -38.873361,
+    "capital": false,
+    "id": 542,
+    "score": 53
+  },
+  {
+    "name": "Munique - Zona Leste 4",
+    "country": "Alemanha",
+    "region": "Alemanha",
+    "latitude": 48.181549,
+    "longitude": 11.625105,
+    "capital": false,
+    "id": 1106,
+    "score": 88
+  },
+  {
+    "name": "Osasco",
+    "country": "Brasil",
+    "region": "Sao Paulo",
+    "latitude": -23.5329,
+    "longitude": -46.7918,
+    "capital": false,
+    "id": 36,
+    "score": 33
+  },
+  {
+    "name": "Seattle - Zona Oeste 5",
+    "country": "Estados Unidos",
+    "region": "Estados Unidos",
+    "latitude": 47.582407,
+    "longitude": -122.229725,
+    "capital": false,
+    "id": 1319,
+    "score": 45
+  },
+  {
+    "name": "Niteroi - Bairro Novo 8",
+    "country": "Brasil",
+    "region": "Rio de Janeiro",
+    "latitude": -22.809655,
+    "longitude": -43.039546,
+    "capital": false,
+    "id": 1977,
+    "score": 68
+  },
+  {
+    "name": "Denver - Centro",
+    "country": "Estados Unidos",
+    "region": "Estados Unidos",
+    "latitude": 39.632733,
+    "longitude": -104.912471,
+    "capital": false,
+    "id": 363,
+    "score": 14
+  },
+  {
+    "name": "Bucareste - Bairro Alto 7",
+    "country": "Romenia",
+    "region": "Romenia",
+    "latitude": 44.337661,
+    "longitude": 26.212331,
+    "capital": false,
+    "id": 1847,
+    "score": 61
+  },
+  {
+    "name": "Belgrado - Zona Oeste 5",
+    "country": "Servia",
+    "region": "Servia",
+    "latitude": 44.82037,
+    "longitude": 20.339297,
+    "capital": false,
+    "id": 1369,
+    "score": 37
+  },
+  {
+    "name": "Rio Verde - Porto 15",
+    "country": "Brasil",
+    "region": "Goias",
+    "latitude": -17.812931,
+    "longitude": -50.803525,
+    "capital": false,
+    "id": 3674,
+    "score": 80
+  },
+  {
+    "name": "Pequim - Porto 15",
+    "country": "China",
+    "region": "China",
+    "latitude": 39.776052,
+    "longitude": 116.3194,
+    "capital": false,
+    "id": 3803,
+    "score": 12
+  },
+  {
+    "name": "Chennai - Jardim das Flores 12",
+    "country": "India",
+    "region": "India",
+    "latitude": 13.109232,
+    "longitude": 80.092528,
+    "capital": false,
+    "id": 3098,
+    "score": 26
+  },
+  {
+    "name": "Kinshasa - Bairro Novo 8",
+    "country": "Republica Democratica do Congo",
+    "region": "Republica Democratica do Congo",
+    "latitude": -4.270459,
+    "longitude": 15.365374,
+    "capital": false,
+    "id": 2115,
+    "score": 26
+  },
+  {
+    "name": "Salvador - Vale 19",
+    "country": "Brasil",
+    "region": "Bahia",
+    "latitude": -12.824947,
+    "longitude": -38.330355,
+    "capital": false,
+    "id": 4565,
+    "score": 27
+  },
+  {
+    "name": "Abu Dhabi - Setor Industrial 6",
+    "country": "Emirados Arabes Unidos",
+    "region": "Emirados Arabes Unidos",
+    "latitude": 24.569707,
+    "longitude": 54.3395,
+    "capital": false,
+    "id": 1665,
+    "score": 82
+  },
+  {
+    "name": "Bogota - Parque das Nacoes 13",
+    "country": "Colombia",
+    "region": "Colombia",
+    "latitude": 4.888335,
+    "longitude": -73.962773,
+    "capital": false,
+    "id": 3207,
+    "score": 100
+  },
+  {
+    "name": "Aman - Colina 18",
+    "country": "Jordania",
+    "region": "Jordania",
+    "latitude": 31.95579,
+    "longitude": 35.882173,
+    "capital": false,
+    "id": 4551,
+    "score": 69
+  },
+  {
+    "name": "Ponta Grossa - Setor Industrial 6",
+    "country": "Brasil",
+    "region": "Parana",
+    "latitude": -24.959463,
+    "longitude": -50.30112,
+    "capital": false,
+    "id": 1488,
+    "score": 99
+  },
+  {
+    "name": "Helsinque - Bairro Novo 8",
+    "country": "Finlandia",
+    "region": "Finlandia",
+    "latitude": 60.18088,
+    "longitude": 25.117187,
+    "capital": false,
+    "id": 2095,
+    "score": 76
+  },
+  {
+    "name": "Santos - Zona Leste 4",
+    "country": "Brasil",
+    "region": "Sao Paulo",
+    "latitude": -24.010008,
+    "longitude": -46.225505,
+    "capital": false,
+    "id": 990,
+    "score": 30
+  },
+  {
+    "name": "Roma - Centro",
+    "country": "Italia",
+    "region": "Italia",
+    "latitude": 42.023254,
+    "longitude": 12.526103,
+    "capital": false,
+    "id": 392,
+    "score": 36
+  },
+  {
+    "name": "Nova Deli - Zona Sul 3",
+    "country": "India",
+    "region": "India",
+    "latitude": 28.732614,
+    "longitude": 77.279586,
+    "capital": false,
+    "id": 934,
+    "score": 28
+  },
+  {
+    "name": "Florianopolis - Zona Oeste 5",
+    "country": "Brasil",
+    "region": "Santa Catarina",
+    "latitude": -27.583904,
+    "longitude": -48.43159,
+    "capital": false,
+    "id": 1224,
+    "score": 88
+  },
+  {
+    "name": "Santos - Zona Sul 3",
+    "country": "Brasil",
+    "region": "Sao Paulo",
+    "latitude": -24.1161,
+    "longitude": -46.238443,
+    "capital": false,
+    "id": 750,
+    "score": 24
+  },
+  {
+    "name": "Manaugua - Vale 19",
+    "country": "Nicaragua",
+    "region": "Nicaragua",
+    "latitude": 12.073606,
+    "longitude": -86.301246,
+    "capital": false,
+    "id": 4668,
+    "score": 57
+  },
+  {
+    "name": "Catmandu - Estacao 16",
+    "country": "Nepal",
+    "region": "Nepal",
+    "latitude": 27.881035,
+    "longitude": 85.455652,
+    "capital": false,
+    "id": 4062,
+    "score": 39
+  },
+  {
+    "name": "Chicago - Zona Oeste 5",
+    "country": "Estados Unidos",
+    "region": "Estados Unidos",
+    "latitude": 41.971551,
+    "longitude": -87.77614,
+    "capital": false,
+    "id": 1315,
+    "score": 58
+  },
+  {
+    "name": "Macapa - Estacao 16",
+    "country": "Brasil",
+    "region": "Amapa",
+    "latitude": -0.05101,
+    "longitude": -50.97843,
+    "capital": false,
+    "id": 3843,
+    "score": 35
+  },
+  {
+    "name": "Guarulhos - Distrito Historico 10",
+    "country": "Brasil",
+    "region": "Sao Paulo",
+    "latitude": -23.306716,
+    "longitude": -46.422973,
+    "capital": false,
+    "id": 2429,
+    "score": 64
+  },
+  {
+    "name": "Rio Verde",
+    "country": "Brasil",
+    "region": "Goias",
+    "latitude": -17.7975,
+    "longitude": -50.9265,
+    "capital": false,
+    "id": 74,
+    "score": 59
+  },
+  {
+    "name": "Cartum - Parque das Nacoes 13",
+    "country": "Sudao",
+    "region": "Sudao",
+    "latitude": 15.672727,
+    "longitude": 32.403196,
+    "capital": false,
+    "id": 3316,
+    "score": 21
+  },
+  {
+    "name": "Xangai - Zona Norte 2",
+    "country": "China",
+    "region": "China",
+    "latitude": 31.107271,
+    "longitude": 121.452723,
+    "capital": false,
+    "id": 684,
+    "score": 81
+  },
+  {
+    "name": "Juiz de Fora - Distrito Comercial 9",
+    "country": "Brasil",
+    "region": "Minas Gerais",
+    "latitude": -21.708999,
+    "longitude": -43.229531,
+    "capital": false,
+    "id": 2203,
+    "score": 78
+  },
+  {
+    "name": "Sevilha - Zona Sul 3",
+    "country": "Espanha",
+    "region": "Espanha",
+    "latitude": 37.4807,
+    "longitude": -5.890944,
+    "capital": false,
+    "id": 854,
+    "score": 46
+  },
+  {
+    "name": "Ancara - Centro",
+    "country": "Turquia",
+    "region": "Turquia",
+    "latitude": 39.899696,
+    "longitude": 32.903138,
+    "capital": false,
+    "id": 399,
+    "score": 92
+  },
+  {
+    "name": "Bogota - Jardim das Flores 12",
+    "country": "Colombia",
+    "region": "Colombia",
+    "latitude": 4.86317,
+    "longitude": -74.152602,
+    "capital": false,
+    "id": 2967,
+    "score": 80
+  },
+  {
+    "name": "Houston - Zona Norte 2",
+    "country": "Estados Unidos",
+    "region": "Estados Unidos",
+    "latitude": 29.828324,
+    "longitude": -95.297896,
+    "capital": false,
+    "id": 596,
+    "score": 28
+  },
+  {
+    "name": "Contagem - Vale 19",
+    "country": "Brasil",
+    "region": "Minas Gerais",
+    "latitude": -19.876323,
+    "longitude": -43.920391,
+    "capital": false,
+    "id": 4605,
+    "score": 100
+  },
+  {
+    "name": "Duque de Caxias - Zona Sul 3",
+    "country": "Brasil",
+    "region": "Rio de Janeiro",
+    "latitude": -22.706098,
+    "longitude": -43.414292,
+    "capital": false,
+    "id": 780,
+    "score": 62
+  },
+  {
+    "name": "Houston - Zona Leste 4",
+    "country": "Estados Unidos",
+    "region": "Estados Unidos",
+    "latitude": 29.735534,
+    "longitude": -95.232116,
+    "capital": false,
+    "id": 1076,
+    "score": 49
+  },
+  {
+    "name": "Rio Verde - Setor Industrial 6",
+    "country": "Brasil",
+    "region": "Goias",
+    "latitude": -17.729607,
+    "longitude": -51.059011,
+    "capital": false,
+    "id": 1514,
+    "score": 13
+  },
+  {
+    "name": "Bucareste - Jardim das Flores 12",
+    "country": "Romenia",
+    "region": "Romenia",
+    "latitude": 44.477137,
+    "longitude": 26.110811,
+    "capital": false,
+    "id": 3047,
+    "score": 45
+  },
+  {
+    "name": "Beirute - Distrito Comercial 9",
+    "country": "Libano",
+    "region": "Libano",
+    "latitude": 34.052357,
+    "longitude": 35.574051,
+    "capital": false,
+    "id": 2392,
+    "score": 30
+  },
+  {
+    "name": "Imperatriz",
+    "country": "Brasil",
+    "region": "Maranhao",
+    "latitude": -5.5264,
+    "longitude": -47.4917,
+    "capital": false,
+    "id": 70,
+    "score": 12
+  },
+  {
+    "name": "Casablanca - Mirante 17",
+    "country": "Marrocos",
+    "region": "Marrocos",
+    "latitude": 33.493708,
+    "longitude": -7.518065,
+    "capital": false,
+    "id": 4265,
+    "score": 73
+  },
+  {
+    "name": "Sao Bernardo do Campo - Setor Universitario 14",
+    "country": "Brasil",
+    "region": "Sao Paulo",
+    "latitude": -23.794737,
+    "longitude": -46.398238,
+    "capital": false,
+    "id": 3395,
+    "score": 36
+  },
+  {
+    "name": "Rosario - Vale 19",
+    "country": "Argentina",
+    "region": "Argentina",
+    "latitude": -32.79842,
+    "longitude": -60.81066,
+    "capital": false,
+    "id": 4641,
+    "score": 79
+  },
+  {
+    "name": "Calcuta - Distrito Comercial 9",
+    "country": "India",
+    "region": "India",
+    "latitude": 22.657749,
+    "longitude": 88.504168,
+    "capital": false,
+    "id": 2377,
+    "score": 74
+  },
+  {
+    "name": "Kuala Lumpur - Estacao 16",
+    "country": "Malasia",
+    "region": "Malasia",
+    "latitude": 2.996553,
+    "longitude": 101.705946,
+    "capital": false,
+    "id": 4051,
+    "score": 29
+  },
+  {
+    "name": "Belgrado - Litoral 20",
+    "country": "Servia",
+    "region": "Servia",
+    "latitude": 44.866971,
+    "longitude": 20.367782,
+    "capital": false,
+    "id": 4969,
+    "score": 83
+  },
+  {
+    "name": "Juazeiro do Norte - Setor Universitario 14",
+    "country": "Brasil",
+    "region": "Ceara",
+    "latitude": -7.307292,
+    "longitude": -39.45128,
+    "capital": false,
+    "id": 3429,
+    "score": 90
+  },
+  {
+    "name": "Berlim",
+    "country": "Alemanha",
+    "region": "Alemanha",
+    "latitude": 52.52,
+    "longitude": 13.405,
+    "capital": true,
+    "id": 145,
+    "score": 90
+  },
+  {
+    "name": "Abu Dhabi - Porto 15",
+    "country": "Emirados Arabes Unidos",
+    "region": "Emirados Arabes Unidos",
+    "latitude": 24.628611,
+    "longitude": 54.478829,
+    "capital": false,
+    "id": 3825,
+    "score": 65
+  },
+  {
+    "name": "Nairobi - Setor Industrial 6",
+    "country": "Quenia",
+    "region": "Quenia",
+    "latitude": -1.210303,
+    "longitude": 36.679322,
+    "capital": false,
+    "id": 1620,
+    "score": 16
+  },
+  {
+    "name": "Anapolis - Planalto 21",
+    "country": "Brasil",
+    "region": "Goias",
+    "latitude": -16.398318,
+    "longitude": -49.102185,
+    "capital": false,
+    "id": 5113,
+    "score": 44
+  },
+  {
+    "name": "Chennai - Litoral 20",
+    "country": "India",
+    "region": "India",
+    "latitude": 12.989302,
+    "longitude": 80.412575,
+    "capital": false,
+    "id": 5018,
+    "score": 80
+  },
+  {
+    "name": "Pretoria - Vila Verde 11",
+    "country": "Africa do Sul",
+    "region": "Africa do Sul",
+    "latitude": -25.847334,
+    "longitude": 28.359295,
+    "capital": false,
+    "id": 2824,
+    "score": 51
+  },
+  {
+    "name": "Adis Abeba - Distrito Historico 10",
+    "country": "Etiopia",
+    "region": "Etiopia",
+    "latitude": 9.18269,
+    "longitude": 38.592254,
+    "capital": false,
+    "id": 2581,
+    "score": 13
+  },
+  {
+    "name": "Atenas - Zona Leste 4",
+    "country": "Grecia",
+    "region": "Grecia",
+    "latitude": 37.992972,
+    "longitude": 23.660451,
+    "capital": false,
+    "id": 1117,
+    "score": 28
+  },
+  {
+    "name": "Edimburgo - Zona Oeste 5",
+    "country": "Reino Unido",
+    "region": "Reino Unido",
+    "latitude": 56.117049,
+    "longitude": -3.225487,
+    "capital": false,
+    "id": 1340,
+    "score": 92
+  },
+  {
+    "name": "Adis Abeba - Jardim das Flores 12",
+    "country": "Etiopia",
+    "region": "Etiopia",
+    "latitude": 9.020789,
+    "longitude": 38.623477,
+    "capital": false,
+    "id": 3061,
+    "score": 41
+  },
+  {
+    "name": "Guarulhos - Centro",
+    "country": "Brasil",
+    "region": "Sao Paulo",
+    "latitude": -23.57269,
+    "longitude": -46.451214,
+    "capital": false,
+    "id": 269,
+    "score": 87
+  },
+  {
+    "name": "Campos dos Goytacazes - Colina 18",
+    "country": "Brasil",
+    "region": "Rio de Janeiro",
+    "latitude": -21.655919,
+    "longitude": -41.43154,
+    "capital": false,
+    "id": 4378,
+    "score": 87
+  },
+  {
+    "name": "Teresina - Distrito Comercial 9",
+    "country": "Brasil",
+    "region": "Piaui",
+    "latitude": -5.070626,
+    "longitude": -42.785951,
+    "capital": false,
+    "id": 2178,
+    "score": 96
+  },
+  {
+    "name": "Bauru - Jardim das Flores 12",
+    "country": "Brasil",
+    "region": "Sao Paulo",
+    "latitude": -22.464442,
+    "longitude": -49.204239,
+    "capital": false,
+    "id": 2919,
+    "score": 56
+  },
+  {
+    "name": "Petrolina - Colina 18",
+    "country": "Brasil",
+    "region": "Pernambuco",
+    "latitude": -9.221455,
+    "longitude": -40.359863,
+    "capital": false,
+    "id": 4385,
+    "score": 24
+  },
+  {
+    "name": "Palmas - Parque das Nacoes 13",
+    "country": "Brasil",
+    "region": "Tocantins",
+    "latitude": -10.249561,
+    "longitude": -48.26075,
+    "capital": false,
+    "id": 3147,
+    "score": 27
+  },
+  {
+    "name": "Acra - Zona Leste 4",
+    "country": "Gana",
+    "region": "Gana",
+    "latitude": 5.750557,
+    "longitude": -0.334794,
+    "capital": false,
+    "id": 1150,
+    "score": 91
+  },
+  {
+    "name": "Amsterda - Distrito Historico 10",
+    "country": "Holanda",
+    "region": "Holanda",
+    "latitude": 52.483498,
+    "longitude": 4.972399,
+    "capital": false,
+    "id": 2542,
+    "score": 82
+  },
+  {
+    "name": "Los Angeles - Porto 15",
+    "country": "Estados Unidos",
+    "region": "Estados Unidos",
+    "latitude": 34.156003,
+    "longitude": -118.188967,
+    "capital": false,
+    "id": 3714,
+    "score": 12
+  },
+  {
+    "name": "Roma - Mirante 17",
+    "country": "Italia",
+    "region": "Italia",
+    "latitude": 41.723368,
+    "longitude": 12.341543,
+    "capital": false,
+    "id": 4232,
+    "score": 85
+  },
+  {
+    "name": "Liubliana - Estacao 16",
+    "country": "Eslovenia",
+    "region": "Eslovenia",
+    "latitude": 46.210478,
+    "longitude": 14.361227,
+    "capital": false,
+    "id": 4011,
+    "score": 79
+  },
+  {
+    "name": "Lima - Estacao 16",
+    "country": "Peru",
+    "region": "Peru",
+    "latitude": -12.202084,
+    "longitude": -76.93861,
+    "capital": false,
+    "id": 3925,
+    "score": 35
+  },
+  {
+    "name": "Feira de Santana - Mirante 17",
+    "country": "Brasil",
+    "region": "Bahia",
+    "latitude": -12.096348,
+    "longitude": -38.896561,
+    "capital": false,
+    "id": 4142,
+    "score": 82
+  },
+  {
+    "name": "Paris - Planalto 21",
+    "country": "Franca",
+    "region": "Franca",
+    "latitude": 48.699196,
+    "longitude": 2.408331,
+    "capital": false,
+    "id": 5175,
+    "score": 77
+  },
+  {
+    "name": "Cordoba - Planalto 21",
+    "country": "Argentina",
+    "region": "Argentina",
+    "latitude": -31.446139,
+    "longitude": -64.217418,
+    "capital": false,
+    "id": 5120,
+    "score": 84
+  },
+  {
+    "name": "Juiz de Fora - Planalto 21",
+    "country": "Brasil",
+    "region": "Minas Gerais",
+    "latitude": -21.756972,
+    "longitude": -43.406721,
+    "capital": false,
+    "id": 5083,
+    "score": 16
+  },
+  {
+    "name": "Nova Deli - Jardim das Flores 12",
+    "country": "India",
+    "region": "India",
+    "latitude": 28.696706,
+    "longitude": 77.294024,
+    "capital": false,
+    "id": 3094,
+    "score": 99
+  },
+  {
+    "name": "Manaugua - Zona Norte 2",
+    "country": "Nicaragua",
+    "region": "Nicaragua",
+    "latitude": 12.218618,
+    "longitude": -86.191179,
+    "capital": false,
+    "id": 588,
+    "score": 84
+  },
+  {
+    "name": "Curitiba",
+    "country": "Brasil",
+    "region": "Parana",
+    "latitude": -25.4284,
+    "longitude": -49.2733,
+    "capital": true,
+    "id": 16,
+    "score": 72
+  },
+  {
+    "name": "Bogota",
+    "country": "Colombia",
+    "region": "Colombia",
+    "latitude": 4.711,
+    "longitude": -74.0721,
+    "capital": true,
+    "id": 87,
+    "score": 79
+  },
+  {
+    "name": "Londres - Mirante 17",
+    "country": "Reino Unido",
+    "region": "Reino Unido",
+    "latitude": 51.657478,
+    "longitude": -0.16464,
+    "capital": false,
+    "id": 4218,
+    "score": 30
+  },
+  {
+    "name": "Toquio - Zona Norte 2",
+    "country": "Japao",
+    "region": "Japao",
+    "latitude": 35.809702,
+    "longitude": 139.693396,
+    "capital": false,
+    "id": 678,
+    "score": 65
+  },
+  {
+    "name": "Rio de Janeiro - Colina 18",
+    "country": "Brasil",
+    "region": "Rio de Janeiro",
+    "latitude": -22.814023,
+    "longitude": -43.212117,
+    "capital": false,
+    "id": 4339,
+    "score": 39
+  },
+  {
+    "name": "Uberaba - Bairro Alto 7",
+    "country": "Brasil",
+    "region": "Minas Gerais",
+    "latitude": -19.579734,
+    "longitude": -48.106442,
+    "capital": false,
+    "id": 1724,
+    "score": 94
+  },
+  {
+    "name": "Lagos - Zona Leste 4",
+    "country": "Nigeria",
+    "region": "Nigeria",
+    "latitude": 6.595022,
+    "longitude": 3.248618,
+    "capital": false,
+    "id": 1138,
+    "score": 59
+  },
+  {
+    "name": "Varsovia - Vila Verde 11",
+    "country": "Polonia",
+    "region": "Polonia",
+    "latitude": 52.27396,
+    "longitude": 21.017262,
+    "capital": false,
+    "id": 2803,
+    "score": 92
+  },
+  {
+    "name": "Imperatriz - Parque das Nacoes 13",
+    "country": "Brasil",
+    "region": "Maranhao",
+    "latitude": -5.59549,
+    "longitude": -47.527113,
+    "capital": false,
+    "id": 3190,
+    "score": 22
+  },
+  {
+    "name": "Auckland - Colina 18",
+    "country": "Nova Zelandia",
+    "region": "Nova Zelandia",
+    "latitude": -36.831732,
+    "longitude": 174.706743,
+    "capital": false,
+    "id": 4559,
+    "score": 62
+  },
+  {
+    "name": "Natal - Estacao 16",
+    "country": "Brasil",
+    "region": "Rio Grande do Norte",
+    "latitude": -5.971465,
+    "longitude": -35.224431,
+    "capital": false,
+    "id": 3860,
+    "score": 26
+  },
+  {
+    "name": "Porto - Bairro Novo 8",
+    "country": "Portugal",
+    "region": "Portugal",
+    "latitude": 41.080834,
+    "longitude": -8.504072,
+    "capital": false,
+    "id": 2051,
+    "score": 71
+  },
+  {
+    "name": "Lima - Bairro Alto 7",
+    "country": "Peru",
+    "region": "Peru",
+    "latitude": -12.115393,
+    "longitude": -77.079712,
+    "capital": false,
+    "id": 1765,
+    "score": 31
+  },
+  {
+    "name": "Aman - Setor Universitario 14",
+    "country": "Jordania",
+    "region": "Jordania",
+    "latitude": 31.871773,
+    "longitude": 35.765582,
+    "capital": false,
+    "id": 3591,
+    "score": 67
+  },
+  {
+    "name": "Caxias do Sul - Colina 18",
+    "country": "Brasil",
+    "region": "Rio Grande do Sul",
+    "latitude": -29.33511,
+    "longitude": -51.153427,
+    "capital": false,
+    "id": 4371,
+    "score": 60
+  },
+  {
+    "name": "Auckland",
+    "country": "Nova Zelandia",
+    "region": "Nova Zelandia",
+    "latitude": -36.8485,
+    "longitude": 174.7633,
+    "capital": true,
+    "id": 239,
+    "score": 77
+  },
+  {
+    "name": "Guayaquil - Planalto 21",
+    "country": "Equador",
+    "region": "Equador",
+    "latitude": -2.203721,
+    "longitude": -80.049535,
+    "capital": false,
+    "id": 5131,
+    "score": 83
+  },
+  {
+    "name": "Varsovia - Zona Norte 2",
+    "country": "Polonia",
+    "region": "Polonia",
+    "latitude": 52.225971,
+    "longitude": 20.885694,
+    "capital": false,
+    "id": 643,
+    "score": 66
+  },
+  {
+    "name": "Islamabad - Zona Oeste 5",
+    "country": "Paquistao",
+    "region": "Paquistao",
+    "latitude": 33.796067,
+    "longitude": 72.909331,
+    "capital": false,
+    "id": 1420,
+    "score": 42
+  },
+  {
+    "name": "Sofia - Zona Oeste 5",
+    "country": "Bulgaria",
+    "region": "Bulgaria",
+    "latitude": 42.606472,
+    "longitude": 23.366912,
+    "capital": false,
+    "id": 1368,
+    "score": 43
+  },
+  {
+    "name": "San Francisco",
+    "country": "Estados Unidos",
+    "region": "Estados Unidos",
+    "latitude": 37.7749,
+    "longitude": -122.4194,
+    "capital": true,
+    "id": 118,
+    "score": 98
+  },
+  {
+    "name": "Florenca - Bairro Alto 7",
+    "country": "Italia",
+    "region": "Italia",
+    "latitude": 43.648465,
+    "longitude": 11.397817,
+    "capital": false,
+    "id": 1836,
+    "score": 78
+  },
+  {
+    "name": "Luanda - Centro",
+    "country": "Angola",
+    "region": "Angola",
+    "latitude": -8.874136,
+    "longitude": 13.215836,
+    "capital": false,
+    "id": 433,
+    "score": 14
+  },
+  {
+    "name": "San Salvador - Zona Sul 3",
+    "country": "El Salvador",
+    "region": "El Salvador",
+    "latitude": 13.766222,
+    "longitude": -89.218106,
+    "capital": false,
+    "id": 830,
+    "score": 78
+  },
+  {
+    "name": "Acra - Bairro Alto 7",
+    "country": "Gana",
+    "region": "Gana",
+    "latitude": 5.629635,
+    "longitude": -0.298631,
+    "capital": false,
+    "id": 1870,
+    "score": 89
+  },
+  {
+    "name": "Ottawa - Porto 15",
+    "country": "Canada",
+    "region": "Canada",
+    "latitude": 45.467216,
+    "longitude": -75.74959,
+    "capital": false,
+    "id": 3729,
+    "score": 84
+  },
+  {
+    "name": "Catmandu - Bairro Alto 7",
+    "country": "Nepal",
+    "region": "Nepal",
+    "latitude": 27.765256,
+    "longitude": 85.289222,
+    "capital": false,
+    "id": 1902,
+    "score": 26
+  },
+  {
+    "name": "Belgrado - Setor Industrial 6",
+    "country": "Servia",
+    "region": "Servia",
+    "latitude": 44.678842,
+    "longitude": 20.47187,
+    "capital": false,
+    "id": 1609,
+    "score": 88
+  },
+  {
+    "name": "Istambul - Setor Industrial 6",
+    "country": "Turquia",
+    "region": "Turquia",
+    "latitude": 41.157221,
+    "longitude": 29.06504,
+    "capital": false,
+    "id": 1598,
+    "score": 59
+  },
+  {
+    "name": "San Francisco - Parque das Nacoes 13",
+    "country": "Estados Unidos",
+    "region": "Estados Unidos",
+    "latitude": 37.615964,
+    "longitude": -122.484315,
+    "capital": false,
+    "id": 3238,
+    "score": 10
+  },
+  {
+    "name": "Brasilia - Zona Oeste 5",
+    "country": "Brasil",
+    "region": "Distrito Federal",
+    "latitude": -15.957596,
+    "longitude": -47.93877,
+    "capital": false,
+    "id": 1207,
+    "score": 90
+  },
+  {
+    "name": "Duque de Caxias - Vila Verde 11",
+    "country": "Brasil",
+    "region": "Rio de Janeiro",
+    "latitude": -22.762023,
+    "longitude": -43.254269,
+    "capital": false,
+    "id": 2700,
+    "score": 42
+  },
+  {
+    "name": "Dallas - Vale 19",
+    "country": "Estados Unidos",
+    "region": "Estados Unidos",
+    "latitude": 32.928225,
+    "longitude": -96.955552,
+    "capital": false,
+    "id": 4682,
+    "score": 73
+  },
+  {
+    "name": "Ho Chi Minh - Litoral 20",
+    "country": "Vietna",
+    "region": "Vietna",
+    "latitude": 10.69854,
+    "longitude": 106.631324,
+    "capital": false,
+    "id": 5009,
+    "score": 88
+  },
+  {
+    "name": "Porto Velho - Jardim das Flores 12",
+    "country": "Brasil",
+    "region": "Rondonia",
+    "latitude": -8.654585,
+    "longitude": -63.9714,
+    "capital": false,
+    "id": 2902,
+    "score": 87
+  },
+  {
+    "name": "Juiz de Fora",
+    "country": "Brasil",
+    "region": "Minas Gerais",
+    "latitude": -21.7642,
+    "longitude": -43.3503,
+    "capital": false,
+    "id": 43,
+    "score": 83
+  },
+  {
+    "name": "Santo Andre - Setor Universitario 14",
+    "country": "Brasil",
+    "region": "Sao Paulo",
+    "latitude": -23.533324,
+    "longitude": -46.510636,
+    "capital": false,
+    "id": 3394,
+    "score": 19
+  },
+  {
+    "name": "Cusco - Distrito Comercial 9",
+    "country": "Peru",
+    "region": "Peru",
+    "latitude": -13.696262,
+    "longitude": -71.956766,
+    "capital": false,
+    "id": 2246,
+    "score": 52
+  },
+  {
+    "name": "Buenos Aires - Setor Universitario 14",
+    "country": "Argentina",
+    "region": "Argentina",
+    "latitude": -34.537914,
+    "longitude": -58.214806,
+    "capital": false,
+    "id": 3439,
+    "score": 58
+  },
+  {
+    "name": "Florenca - Porto 15",
+    "country": "Italia",
+    "region": "Italia",
+    "latitude": 43.900378,
+    "longitude": 11.118301,
+    "capital": false,
+    "id": 3756,
+    "score": 24
+  },
+  {
+    "name": "La Paz - Litoral 20",
+    "country": "Bolivia",
+    "region": "Bolivia",
+    "latitude": -16.402659,
+    "longitude": -68.092667,
+    "capital": false,
+    "id": 4893,
+    "score": 18
+  },
+  {
+    "name": "Zurique - Jardim das Flores 12",
+    "country": "Suica",
+    "region": "Suica",
+    "latitude": 47.489048,
+    "longitude": 8.715289,
+    "capital": false,
+    "id": 3029,
+    "score": 78
+  },
+  {
+    "name": "Varsovia - Colina 18",
+    "country": "Polonia",
+    "region": "Polonia",
+    "latitude": 52.38562,
+    "longitude": 21.063671,
+    "capital": false,
+    "id": 4483,
+    "score": 82
+  },
+  {
+    "name": "Porto Velho - Parque das Nacoes 13",
+    "country": "Brasil",
+    "region": "Rondonia",
+    "latitude": -8.650733,
+    "longitude": -63.745185,
+    "capital": false,
+    "id": 3142,
+    "score": 13
+  },
+  {
+    "name": "Acra",
+    "country": "Gana",
+    "region": "Gana",
+    "latitude": 5.6037,
+    "longitude": -0.187,
+    "capital": true,
+    "id": 190,
+    "score": 98
+  },
+  {
+    "name": "Cidade do Panama - Colina 18",
+    "country": "Panama",
+    "region": "Panama",
+    "latitude": 8.805951,
+    "longitude": -79.564124,
+    "capital": false,
+    "id": 4426,
+    "score": 46
+  },
+  {
+    "name": "Lima - Litoral 20",
+    "country": "Peru",
+    "region": "Peru",
+    "latitude": -11.971673,
+    "longitude": -76.891386,
+    "capital": false,
+    "id": 4885,
+    "score": 90
+  },
+  {
+    "name": "Cidade do Cabo - Zona Sul 3",
+    "country": "Africa do Sul",
+    "region": "Africa do Sul",
+    "latitude": -33.829029,
+    "longitude": 18.291278,
+    "capital": false,
+    "id": 903,
+    "score": 38
+  },
+  {
+    "name": "Cidade do Cabo - Setor Industrial 6",
+    "country": "Africa do Sul",
+    "region": "Africa do Sul",
+    "latitude": -33.745995,
+    "longitude": 18.500295,
+    "capital": false,
+    "id": 1623,
+    "score": 57
+  },
+  {
+    "name": "Santa Maria - Planalto 21",
+    "country": "Brasil",
+    "region": "Rio Grande do Sul",
+    "latitude": -29.849457,
+    "longitude": -53.885014,
+    "capital": false,
+    "id": 5093,
+    "score": 97
+  },
+  {
+    "name": "Blumenau - Zona Oeste 5",
+    "country": "Brasil",
+    "region": "Santa Catarina",
+    "latitude": -26.894877,
+    "longitude": -49.202527,
+    "capital": false,
+    "id": 1255,
+    "score": 61
+  },
+  {
+    "name": "Seattle - Parque das Nacoes 13",
+    "country": "Estados Unidos",
+    "region": "Estados Unidos",
+    "latitude": 47.742394,
+    "longitude": -122.463321,
+    "capital": false,
+    "id": 3239,
+    "score": 51
+  },
+  {
+    "name": "Auckland - Setor Universitario 14",
+    "country": "Nova Zelandia",
+    "region": "Nova Zelandia",
+    "latitude": -36.962905,
+    "longitude": 174.724765,
+    "capital": false,
+    "id": 3599,
+    "score": 68
+  },
+  {
+    "name": "Liubliana - Jardim das Flores 12",
+    "country": "Eslovenia",
+    "region": "Eslovenia",
+    "latitude": 46.219007,
+    "longitude": 14.551589,
+    "capital": false,
+    "id": 3051,
+    "score": 98
+  },
+  {
+    "name": "Istambul - Vale 19",
+    "country": "Turquia",
+    "region": "Turquia",
+    "latitude": 40.940948,
+    "longitude": 29.029481,
+    "capital": false,
+    "id": 4718,
+    "score": 14
+  },
+  {
+    "name": "Rio Branco - Zona Leste 4",
+    "country": "Brasil",
+    "region": "Acre",
+    "latitude": -10.091968,
+    "longitude": -67.723809,
+    "capital": false,
+    "id": 961,
+    "score": 98
+  },
+  {
+    "name": "Berlim - Porto 15",
+    "country": "Alemanha",
+    "region": "Alemanha",
+    "latitude": 52.36239,
+    "longitude": 13.544863,
+    "capital": false,
+    "id": 3745,
+    "score": 89
+  },
+  {
+    "name": "Atenas - Distrito Historico 10",
+    "country": "Grecia",
+    "region": "Grecia",
+    "latitude": 37.823932,
+    "longitude": 23.825025,
+    "capital": false,
+    "id": 2557,
+    "score": 89
+  },
+  {
+    "name": "Goiania - Mirante 17",
+    "country": "Brasil",
+    "region": "Goias",
+    "latitude": -16.508586,
+    "longitude": -49.417248,
+    "capital": false,
+    "id": 4089,
+    "score": 49
+  },
+  {
+    "name": "Budapeste - Setor Universitario 14",
+    "country": "Hungria",
+    "region": "Hungria",
+    "latitude": 47.587116,
+    "longitude": 19.193645,
+    "capital": false,
+    "id": 3526,
+    "score": 58
+  },
+  {
+    "name": "Sao Luis - Distrito Historico 10",
+    "country": "Brasil",
+    "region": "Maranhao",
+    "latitude": -2.481794,
+    "longitude": -44.283766,
+    "capital": false,
+    "id": 2410,
+    "score": 33
+  },
+  {
+    "name": "Bagda - Centro",
+    "country": "Iraque",
+    "region": "Iraque",
+    "latitude": 33.360829,
+    "longitude": 44.284955,
+    "capital": false,
+    "id": 470,
+    "score": 98
+  },
+  {
+    "name": "Tripoli - Parque das Nacoes 13",
+    "country": "Libia",
+    "region": "Libia",
+    "latitude": 32.878444,
+    "longitude": 13.255787,
+    "capital": false,
+    "id": 3309,
+    "score": 17
+  },
+  {
+    "name": "Nova Iguacu - Zona Oeste 5",
+    "country": "Brasil",
+    "region": "Rio de Janeiro",
+    "latitude": -22.67835,
+    "longitude": -43.562527,
+    "capital": false,
+    "id": 1259,
+    "score": 17
+  },
+  {
+    "name": "Toquio - Vale 19",
+    "country": "Japao",
+    "region": "Japao",
+    "latitude": 35.547544,
+    "longitude": 139.783665,
+    "capital": false,
+    "id": 4758,
+    "score": 47
+  },
+  {
+    "name": "Colombo - Distrito Comercial 9",
+    "country": "Sri Lanka",
+    "region": "Sri Lanka",
+    "latitude": 6.772784,
+    "longitude": 79.73952,
+    "capital": false,
+    "id": 2383,
+    "score": 52
+  },
+  {
+    "name": "Montreal - Distrito Comercial 9",
+    "country": "Canada",
+    "region": "Canada",
+    "latitude": 45.333999,
+    "longitude": -73.531575,
+    "capital": false,
+    "id": 2288,
+    "score": 30
+  },
+  {
+    "name": "Bruxelas - Planalto 21",
+    "country": "Belgica",
+    "region": "Belgica",
+    "latitude": 50.949443,
+    "longitude": 4.360856,
+    "capital": false,
+    "id": 5184,
+    "score": 87
+  },
+  {
+    "name": "Juazeiro do Norte - Zona Sul 3",
+    "country": "Brasil",
+    "region": "Ceara",
+    "latitude": -7.100763,
+    "longitude": -39.295007,
+    "capital": false,
+    "id": 789,
+    "score": 66
+  },
+  {
+    "name": "Cidade do Panama - Jardim das Flores 12",
+    "country": "Panama",
+    "region": "Panama",
+    "latitude": 9.128062,
+    "longitude": -79.49303,
+    "capital": false,
+    "id": 2986,
+    "score": 50
+  },
+  {
+    "name": "Riade",
+    "country": "Arabia Saudita",
+    "region": "Arabia Saudita",
+    "latitude": 24.7136,
+    "longitude": 46.6753,
+    "capital": true,
+    "id": 226,
+    "score": 95
+  },
+  {
+    "name": "Paris - Estacao 16",
+    "country": "Franca",
+    "region": "Franca",
+    "latitude": 48.962763,
+    "longitude": 2.241205,
+    "capital": false,
+    "id": 3975,
+    "score": 42
+  },
+  {
+    "name": "Varsovia - Distrito Comercial 9",
+    "country": "Polonia",
+    "region": "Polonia",
+    "latitude": 52.390663,
+    "longitude": 21.078119,
+    "capital": false,
+    "id": 2323,
+    "score": 48
+  },
+  {
+    "name": "Sucre - Vale 19",
+    "country": "Bolivia",
+    "region": "Bolivia",
+    "latitude": -19.104737,
+    "longitude": -65.148377,
+    "capital": false,
+    "id": 4655,
+    "score": 42
+  },
+  {
+    "name": "Boa Vista - Vale 19",
+    "country": "Brasil",
+    "region": "Roraima",
+    "latitude": 2.898291,
+    "longitude": -60.666774,
+    "capital": false,
+    "id": 4583,
+    "score": 30
+  },
+  {
+    "name": "Guadalajara - Bairro Alto 7",
+    "country": "Mexico",
+    "region": "Mexico",
+    "latitude": 20.650637,
+    "longitude": -103.212205,
+    "capital": false,
+    "id": 1779,
+    "score": 36
+  },
+  {
+    "name": "Frankfurt - Setor Universitario 14",
+    "country": "Alemanha",
+    "region": "Alemanha",
+    "latitude": 50.187701,
+    "longitude": 8.757143,
+    "capital": false,
+    "id": 3508,
+    "score": 94
+  },
+  {
+    "name": "Varzea Grande",
+    "country": "Brasil",
+    "region": "Mato Grosso",
+    "latitude": -15.6467,
+    "longitude": -56.1326,
+    "capital": false,
+    "id": 76,
+    "score": 55
+  },
+  {
+    "name": "Las Vegas - Litoral 20",
+    "country": "Estados Unidos",
+    "region": "Estados Unidos",
+    "latitude": 36.174456,
+    "longitude": -115.175821,
+    "capital": false,
+    "id": 4924,
+    "score": 62
+  },
+  {
+    "name": "Palmas - Litoral 20",
+    "country": "Brasil",
+    "region": "Tocantins",
+    "latitude": -10.270196,
+    "longitude": -48.159248,
+    "capital": false,
+    "id": 4827,
+    "score": 13
+  },
+  {
+    "name": "Niteroi - Colina 18",
+    "country": "Brasil",
+    "region": "Rio de Janeiro",
+    "latitude": -23.040441,
+    "longitude": -42.956403,
+    "capital": false,
+    "id": 4377,
+    "score": 67
+  },
+  {
+    "name": "Cartum - Centro",
+    "country": "Sudao",
+    "region": "Sudao",
+    "latitude": 15.64571,
+    "longitude": 32.601485,
+    "capital": false,
+    "id": 436,
+    "score": 58
+  },
+  {
+    "name": "Rabat - Porto 15",
+    "country": "Marrocos",
+    "region": "Marrocos",
+    "latitude": 34.042876,
+    "longitude": -6.977139,
+    "capital": false,
+    "id": 3786,
+    "score": 32
+  },
+  {
+    "name": "Bauru - Porto 15",
+    "country": "Brasil",
+    "region": "Sao Paulo",
+    "latitude": -22.314409,
+    "longitude": -49.115178,
+    "capital": false,
+    "id": 3639,
+    "score": 51
+  },
+  {
+    "name": "Lyon - Planalto 21",
+    "country": "Franca",
+    "region": "Franca",
+    "latitude": 45.706145,
+    "longitude": 4.913166,
+    "capital": false,
+    "id": 5177,
+    "score": 51
+  },
+  {
+    "name": "Edimburgo - Centro",
+    "country": "Reino Unido",
+    "region": "Reino Unido",
+    "latitude": 55.871345,
+    "longitude": -3.150561,
+    "capital": false,
+    "id": 380,
+    "score": 15
+  },
+  {
+    "name": "Praga - Distrito Historico 10",
+    "country": "Republica Tcheca",
+    "region": "Republica Tcheca",
+    "latitude": 49.949349,
+    "longitude": 14.438665,
+    "capital": false,
+    "id": 2565,
+    "score": 95
+  },
+  {
+    "name": "Rosario - Zona Leste 4",
+    "country": "Argentina",
+    "region": "Argentina",
+    "latitude": -32.787821,
+    "longitude": -60.76379,
+    "capital": false,
+    "id": 1041,
+    "score": 50
+  },
+  {
+    "name": "Edimburgo",
+    "country": "Reino Unido",
+    "region": "Reino Unido",
+    "latitude": 55.9533,
+    "longitude": -3.1883,
+    "capital": true,
+    "id": 140,
+    "score": 94
+  },
+  {
+    "name": "Milao - Vila Verde 11",
+    "country": "Italia",
+    "region": "Italia",
+    "latitude": 45.531539,
+    "longitude": 9.223944,
+    "capital": false,
+    "id": 2793,
+    "score": 18
+  },
+  {
+    "name": "Ho Chi Minh - Setor Industrial 6",
+    "country": "Vietna",
+    "region": "Vietna",
+    "latitude": 10.999744,
+    "longitude": 106.46089,
+    "capital": false,
+    "id": 1649,
+    "score": 32
+  },
+  {
+    "name": "Montreal - Setor Universitario 14",
+    "country": "Canada",
+    "region": "Canada",
+    "latitude": 45.466273,
+    "longitude": -73.592995,
+    "capital": false,
+    "id": 3488,
+    "score": 70
+  },
+  {
+    "name": "Auckland - Estacao 16",
+    "country": "Nova Zelandia",
+    "region": "Nova Zelandia",
+    "latitude": -36.704513,
+    "longitude": 174.847268,
+    "capital": false,
+    "id": 4079,
+    "score": 87
+  },
+  {
+    "name": "Sobral - Setor Universitario 14",
+    "country": "Brasil",
+    "region": "Ceara",
+    "latitude": -3.777349,
+    "longitude": -40.211257,
+    "capital": false,
+    "id": 3428,
+    "score": 100
+  },
+  {
+    "name": "Cordoba - Vale 19",
+    "country": "Argentina",
+    "region": "Argentina",
+    "latitude": -31.298966,
+    "longitude": -64.317739,
+    "capital": false,
+    "id": 4640,
+    "score": 36
+  },
+  {
+    "name": "Franca - Planalto 21",
+    "country": "Brasil",
+    "region": "Sao Paulo",
+    "latitude": -20.398922,
+    "longitude": -47.440031,
+    "capital": false,
+    "id": 5080,
+    "score": 33
+  },
+  {
+    "name": "Niteroi",
+    "country": "Brasil",
+    "region": "Rio de Janeiro",
+    "latitude": -22.8833,
+    "longitude": -43.1036,
+    "capital": false,
+    "id": 57,
+    "score": 82
+  },
+  {
+    "name": "Goiania - Bairro Alto 7",
+    "country": "Brasil",
+    "region": "Goias",
+    "latitude": -16.846773,
+    "longitude": -49.086099,
+    "capital": false,
+    "id": 1689,
+    "score": 65
+  },
+  {
+    "name": "Estocolmo - Vila Verde 11",
+    "country": "Suecia",
+    "region": "Suecia",
+    "latitude": 59.302828,
+    "longitude": 17.953034,
+    "capital": false,
+    "id": 2812,
+    "score": 45
+  },
+  {
+    "name": "Monterrey - Colina 18",
+    "country": "Mexico",
+    "region": "Mexico",
+    "latitude": 25.723899,
+    "longitude": -100.468191,
+    "capital": false,
+    "id": 4420,
+    "score": 87
+  },
+  {
+    "name": "Edimburgo - Vale 19",
+    "country": "Reino Unido",
+    "region": "Reino Unido",
+    "latitude": 56.024783,
+    "longitude": -3.260477,
+    "capital": false,
+    "id": 4700,
+    "score": 58
+  },
+  {
+    "name": "Genebra - Distrito Historico 10",
+    "country": "Suica",
+    "region": "Suica",
+    "latitude": 46.354837,
+    "longitude": 6.227536,
+    "capital": false,
+    "id": 2550,
+    "score": 14
+  },
+  {
+    "name": "Fortaleza - Zona Oeste 5",
+    "country": "Brasil",
+    "region": "Ceara",
+    "latitude": -3.62871,
+    "longitude": -38.515108,
+    "capital": false,
+    "id": 1206,
+    "score": 45
+  },
+  {
+    "name": "Chennai - Setor Industrial 6",
+    "country": "India",
+    "region": "India",
+    "latitude": 12.995875,
+    "longitude": 80.383289,
+    "capital": false,
+    "id": 1658,
+    "score": 45
+  },
+  {
+    "name": "Vancouver - Distrito Historico 10",
+    "country": "Canada",
+    "region": "Canada",
+    "latitude": 49.159644,
+    "longitude": -122.941264,
+    "capital": false,
+    "id": 2527,
+    "score": 39
+  },
+  {
+    "name": "Pequim",
+    "country": "China",
+    "region": "China",
+    "latitude": 39.9042,
+    "longitude": 116.4074,
+    "capital": true,
+    "id": 203,
+    "score": 79
+  },
+  {
+    "name": "Kuala Lumpur - Porto 15",
+    "country": "Malasia",
+    "region": "Malasia",
+    "latitude": 3.002548,
+    "longitude": 101.579821,
+    "capital": false,
+    "id": 3811,
+    "score": 75
+  },
+  {
+    "name": "Melbourne - Bairro Novo 8",
+    "country": "Australia",
+    "region": "Australia",
+    "latitude": -37.947443,
+    "longitude": 145.01907,
+    "capital": false,
+    "id": 2156,
+    "score": 88
+  },
+  {
+    "name": "Tunis - Centro",
+    "country": "Tunisia",
+    "region": "Tunisia",
+    "latitude": 36.75762,
+    "longitude": 10.026691,
+    "capital": false,
+    "id": 428,
+    "score": 84
+  },
+  {
+    "name": "Tegucigalpa - Vila Verde 11",
+    "country": "Honduras",
+    "region": "Honduras",
+    "latitude": 14.041355,
+    "longitude": -87.251935,
+    "capital": false,
+    "id": 2749,
+    "score": 16
+  },
+  {
+    "name": "Monterrey - Setor Industrial 6",
+    "country": "Mexico",
+    "region": "Mexico",
+    "latitude": 25.77748,
+    "longitude": -100.283853,
+    "capital": false,
+    "id": 1540,
+    "score": 93
+  },
+  {
+    "name": "Cancun - Estacao 16",
+    "country": "Mexico",
+    "region": "Mexico",
+    "latitude": 21.054034,
+    "longitude": -86.70444,
+    "capital": false,
+    "id": 3941,
+    "score": 32
+  },
+  {
+    "name": "Seul - Zona Norte 2",
+    "country": "Coreia do Sul",
+    "region": "Coreia do Sul",
+    "latitude": 37.477932,
+    "longitude": 126.889918,
+    "capital": false,
+    "id": 681,
+    "score": 76
+  },
+  {
+    "name": "Boa Vista - Mirante 17",
+    "country": "Brasil",
+    "region": "Roraima",
+    "latitude": 2.946463,
+    "longitude": -60.794388,
+    "capital": false,
+    "id": 4103,
+    "score": 46
+  },
+  {
+    "name": "Piracicaba - Mirante 17",
+    "country": "Brasil",
+    "region": "Sao Paulo",
+    "latitude": -22.819425,
+    "longitude": -47.796301,
+    "capital": false,
+    "id": 4118,
+    "score": 51
+  },
+  {
+    "name": "Hong Kong - Jardim das Flores 12",
+    "country": "China",
+    "region": "China",
+    "latitude": 22.304388,
+    "longitude": 114.051032,
+    "capital": false,
+    "id": 3085,
+    "score": 56
+  },
+  {
+    "name": "Dublin - Setor Industrial 6",
+    "country": "Irlanda",
+    "region": "Irlanda",
+    "latitude": 53.429276,
+    "longitude": -6.380193,
+    "capital": false,
+    "id": 1581,
+    "score": 48
+  },
+  {
+    "name": "Sao Paulo - Planalto 21",
+    "country": "Brasil",
+    "region": "Sao Paulo",
+    "latitude": -23.451671,
+    "longitude": -46.504796,
+    "capital": false,
+    "id": 5065,
+    "score": 63
+  },
+  {
+    "name": "Cuiaba",
+    "country": "Brasil",
+    "region": "Mato Grosso",
+    "latitude": -15.6014,
+    "longitude": -56.0979,
+    "capital": true,
+    "id": 11,
+    "score": 76
+  },
+  {
+    "name": "Santo Andre - Litoral 20",
+    "country": "Brasil",
+    "region": "Sao Paulo",
+    "latitude": -23.663149,
+    "longitude": -46.405907,
+    "capital": false,
+    "id": 4834,
+    "score": 67
+  },
+  {
+    "name": "Las Vegas - Bairro Novo 8",
+    "country": "Estados Unidos",
+    "region": "Estados Unidos",
+    "latitude": 36.343181,
+    "longitude": -115.085769,
+    "capital": false,
+    "id": 2044,
+    "score": 76
+  },
+  {
+    "name": "Singapura - Jardim das Flores 12",
+    "country": "Singapura",
+    "region": "Singapura",
+    "latitude": 1.479901,
+    "longitude": 103.670931,
+    "capital": false,
+    "id": 3090,
+    "score": 19
+  },
+  {
+    "name": "Quioto - Porto 15",
+    "country": "Japao",
+    "region": "Japao",
+    "latitude": 35.141073,
+    "longitude": 135.702358,
+    "capital": false,
+    "id": 3800,
+    "score": 55
+  },
+  {
+    "name": "Aracaju - Setor Industrial 6",
+    "country": "Brasil",
+    "region": "Sergipe",
+    "latitude": -10.830818,
+    "longitude": -37.12103,
+    "capital": false,
+    "id": 1466,
+    "score": 48
+  },
+  {
+    "name": "Nairobi - Porto 15",
+    "country": "Quenia",
+    "region": "Quenia",
+    "latitude": -1.388284,
+    "longitude": 36.784243,
+    "capital": false,
+    "id": 3780,
+    "score": 82
+  },
+  {
+    "name": "Duque de Caxias - Zona Oeste 5",
+    "country": "Brasil",
+    "region": "Rio de Janeiro",
+    "latitude": -22.868954,
+    "longitude": -43.249178,
+    "capital": false,
+    "id": 1260,
+    "score": 18
+  },
+  {
+    "name": "Belo Horizonte - Mirante 17",
+    "country": "Brasil",
+    "region": "Minas Gerais",
+    "latitude": -19.93032,
+    "longitude": -44.08815,
+    "capital": false,
+    "id": 4093,
+    "score": 90
+  },
+  {
+    "name": "Sofia - Centro",
+    "country": "Bulgaria",
+    "region": "Bulgaria",
+    "latitude": 42.83168,
+    "longitude": 23.450994,
+    "capital": false,
+    "id": 408,
+    "score": 62
+  },
+  {
+    "name": "Casablanca - Zona Leste 4",
+    "country": "Marrocos",
+    "region": "Marrocos",
+    "latitude": 33.591227,
+    "longitude": -7.435324,
+    "capital": false,
+    "id": 1145,
+    "score": 77
+  },
+  {
+    "name": "Londres - Setor Universitario 14",
+    "country": "Reino Unido",
+    "region": "Reino Unido",
+    "latitude": 51.635682,
+    "longitude": -0.09177,
+    "capital": false,
+    "id": 3498,
+    "score": 18
+  },
+  {
+    "name": "Campos dos Goytacazes - Zona Norte 2",
+    "country": "Brasil",
+    "region": "Rio de Janeiro",
+    "latitude": -21.819678,
+    "longitude": -41.181185,
+    "capital": false,
+    "id": 538,
+    "score": 81
+  },
+  {
+    "name": "Sao Bernardo do Campo - Distrito Historico 10",
+    "country": "Brasil",
+    "region": "Sao Paulo",
+    "latitude": -23.773432,
+    "longitude": -46.520409,
+    "capital": false,
+    "id": 2435,
+    "score": 51
+  },
+  {
+    "name": "Manchester - Setor Universitario 14",
+    "country": "Reino Unido",
+    "region": "Reino Unido",
+    "latitude": 53.659075,
+    "longitude": -2.320732,
+    "capital": false,
+    "id": 3499,
+    "score": 40
+  },
+  {
+    "name": "Hong Kong - Zona Oeste 5",
+    "country": "China",
+    "region": "China",
+    "latitude": 22.486958,
+    "longitude": 114.144364,
+    "capital": false,
+    "id": 1405,
+    "score": 30
+  },
+  {
+    "name": "Cidade do Mexico - Mirante 17",
+    "country": "Mexico",
+    "region": "Mexico",
+    "latitude": 19.316117,
+    "longitude": -99.223571,
+    "capital": false,
+    "id": 4178,
+    "score": 50
+  },
+  {
+    "name": "Copenhague - Parque das Nacoes 13",
+    "country": "Dinamarca",
+    "region": "Dinamarca",
+    "latitude": 55.708277,
+    "longitude": 12.54658,
+    "capital": false,
+    "id": 3294,
+    "score": 67
+  },
+  {
+    "name": "Guadalajara - Parque das Nacoes 13",
+    "country": "Mexico",
+    "region": "Mexico",
+    "latitude": 20.528994,
+    "longitude": -103.462638,
+    "capital": false,
+    "id": 3219,
+    "score": 91
+  },
+  {
+    "name": "Santarem - Zona Norte 2",
+    "country": "Brasil",
+    "region": "Para",
+    "latitude": -2.54967,
+    "longitude": -54.83506,
+    "capital": false,
+    "id": 552,
+    "score": 62
+  },
+  {
+    "name": "Asuncion - Jardim das Flores 12",
+    "country": "Paraguai",
+    "region": "Paraguai",
+    "latitude": -25.379461,
+    "longitude": -57.578759,
+    "capital": false,
+    "id": 2976,
+    "score": 55
+  },
+  {
+    "name": "Kuala Lumpur - Bairro Novo 8",
+    "country": "Malasia",
+    "region": "Malasia",
+    "latitude": 3.234499,
+    "longitude": 101.664463,
+    "capital": false,
+    "id": 2131,
+    "score": 19
+  },
+  {
+    "name": "Manaugua - Zona Leste 4",
+    "country": "Nicaragua",
+    "region": "Nicaragua",
+    "latitude": 12.120301,
+    "longitude": -86.236647,
+    "capital": false,
+    "id": 1068,
+    "score": 54
+  },
+  {
+    "name": "Beirute - Zona Norte 2",
+    "country": "Libano",
+    "region": "Libano",
+    "latitude": 34.004136,
+    "longitude": 35.590561,
+    "capital": false,
+    "id": 712,
+    "score": 65
+  },
+  {
+    "name": "Rabat - Litoral 20",
+    "country": "Marrocos",
+    "region": "Marrocos",
+    "latitude": 33.867915,
+    "longitude": -6.903142,
+    "capital": false,
+    "id": 4986,
+    "score": 46
+  },
+  {
+    "name": "Reiquiavique - Zona Oeste 5",
+    "country": "Islandia",
+    "region": "Islandia",
+    "latitude": 64.082039,
+    "longitude": -21.78158,
+    "capital": false,
+    "id": 1376,
+    "score": 90
+  },
+  {
+    "name": "Sao Paulo - Bairro Novo 8",
+    "country": "Brasil",
+    "region": "Sao Paulo",
+    "latitude": -23.404023,
+    "longitude": -46.512616,
+    "capital": false,
+    "id": 1945,
+    "score": 17
+  },
+  {
+    "name": "Joinville - Parque das Nacoes 13",
+    "country": "Brasil",
+    "region": "Santa Catarina",
+    "latitude": -26.472012,
+    "longitude": -48.9146,
+    "capital": false,
+    "id": 3174,
+    "score": 88
+  },
+  {
+    "name": "Manaugua - Bairro Alto 7",
+    "country": "Nicaragua",
+    "region": "Nicaragua",
+    "latitude": 12.087415,
+    "longitude": -86.060419,
+    "capital": false,
+    "id": 1788,
+    "score": 13
+  },
+  {
+    "name": "Dourados - Vale 19",
+    "country": "Brasil",
+    "region": "Mato Grosso do Sul",
+    "latitude": -22.281668,
+    "longitude": -54.929975,
+    "capital": false,
+    "id": 4635,
+    "score": 98
+  },
+  {
+    "name": "Sevilha - Litoral 20",
+    "country": "Espanha",
+    "region": "Espanha",
+    "latitude": 37.363653,
+    "longitude": -5.960329,
+    "capital": false,
+    "id": 4934,
+    "score": 65
+  },
+  {
+    "name": "Dourados - Zona Oeste 5",
+    "country": "Brasil",
+    "region": "Mato Grosso do Sul",
+    "latitude": -22.365601,
+    "longitude": -54.632325,
+    "capital": false,
+    "id": 1275,
+    "score": 32
+  },
+  {
+    "name": "Mossoro - Mirante 17",
+    "country": "Brasil",
+    "region": "Rio Grande do Norte",
+    "latitude": -5.156887,
+    "longitude": -37.386446,
+    "capital": false,
+    "id": 4147,
+    "score": 22
+  },
+  {
+    "name": "Caracas - Centro",
+    "country": "Venezuela",
+    "region": "Venezuela",
+    "latitude": 10.654899,
+    "longitude": -67.04817,
+    "capital": false,
+    "id": 332,
+    "score": 55
+  },
+  {
+    "name": "Cancun - Porto 15",
+    "country": "Mexico",
+    "region": "Mexico",
+    "latitude": 21.041057,
+    "longitude": -87.009371,
+    "capital": false,
+    "id": 3701,
+    "score": 41
+  },
+  {
+    "name": "Atlanta - Zona Oeste 5",
+    "country": "Estados Unidos",
+    "region": "Estados Unidos",
+    "latitude": 33.595765,
+    "longitude": -84.234789,
+    "capital": false,
+    "id": 1325,
+    "score": 34
+  },
+  {
+    "name": "Goiania - Zona Leste 4",
+    "country": "Brasil",
+    "region": "Goias",
+    "latitude": -16.671409,
+    "longitude": -49.353607,
+    "capital": false,
+    "id": 969,
+    "score": 81
+  },
+  {
+    "name": "Toronto - Centro",
+    "country": "Canada",
+    "region": "Canada",
+    "latitude": 43.584924,
+    "longitude": -79.256329,
+    "capital": false,
+    "id": 366,
+    "score": 74
+  },
+  {
+    "name": "Florianopolis - Mirante 17",
+    "country": "Brasil",
+    "region": "Santa Catarina",
+    "latitude": -27.768896,
+    "longitude": -48.691815,
+    "capital": false,
+    "id": 4104,
+    "score": 53
+  },
+  {
+    "name": "Praga - Setor Industrial 6",
+    "country": "Republica Tcheca",
+    "region": "Republica Tcheca",
+    "latitude": 50.238969,
+    "longitude": 14.282614,
+    "capital": false,
+    "id": 1605,
+    "score": 85
+  },
+  {
+    "name": "Sao Paulo - Zona Oeste 5",
+    "country": "Brasil",
+    "region": "Sao Paulo",
+    "latitude": -23.641396,
+    "longitude": -46.688682,
+    "capital": false,
+    "id": 1225,
+    "score": 29
+  },
+  {
+    "name": "Chapeco - Parque das Nacoes 13",
+    "country": "Brasil",
+    "region": "Santa Catarina",
+    "latitude": -27.085648,
+    "longitude": -52.736665,
+    "capital": false,
+    "id": 3176,
+    "score": 77
+  },
+  {
+    "name": "Teresina - Zona Leste 4",
+    "country": "Brasil",
+    "region": "Piaui",
+    "latitude": -5.082261,
+    "longitude": -42.693187,
+    "capital": false,
+    "id": 978,
+    "score": 100
+  },
+  {
+    "name": "Cidade da Guatemala - Estacao 16",
+    "country": "Guatemala",
+    "region": "Guatemala",
+    "latitude": 14.537799,
+    "longitude": -90.462289,
+    "capital": false,
+    "id": 3951,
+    "score": 19
+  },
+  {
+    "name": "Lyon - Porto 15",
+    "country": "Franca",
+    "region": "Franca",
+    "latitude": 45.710121,
+    "longitude": 4.758133,
+    "capital": false,
+    "id": 3737,
+    "score": 22
+  },
+  {
+    "name": "Reiquiavique - Bairro Novo 8",
+    "country": "Islandia",
+    "region": "Islandia",
+    "latitude": 64.263128,
+    "longitude": -21.769392,
+    "capital": false,
+    "id": 2096,
+    "score": 41
+  },
+  {
+    "name": "La Paz - Mirante 17",
+    "country": "Bolivia",
+    "region": "Bolivia",
+    "latitude": -16.646967,
+    "longitude": -68.116653,
+    "capital": false,
+    "id": 4173,
+    "score": 89
+  },
+  {
+    "name": "Taubate - Parque das Nacoes 13",
+    "country": "Brasil",
+    "region": "Sao Paulo",
+    "latitude": -23.022156,
+    "longitude": -45.665598,
+    "capital": false,
+    "id": 3198,
+    "score": 99
+  },
+  {
+    "name": "Los Angeles - Zona Sul 3",
+    "country": "Estados Unidos",
+    "region": "Estados Unidos",
+    "latitude": 34.203818,
+    "longitude": -118.11334,
+    "capital": false,
+    "id": 834,
+    "score": 60
+  },
+  {
+    "name": "Genebra - Bairro Novo 8",
+    "country": "Suica",
+    "region": "Suica",
+    "latitude": 46.305533,
+    "longitude": 6.276443,
+    "capital": false,
+    "id": 2070,
+    "score": 73
+  },
+  {
+    "name": "Estocolmo - Jardim das Flores 12",
+    "country": "Suecia",
+    "region": "Suecia",
+    "latitude": 59.43103,
+    "longitude": 18.013827,
+    "capital": false,
+    "id": 3052,
+    "score": 38
+  },
+  {
+    "name": "Fortaleza - Distrito Comercial 9",
+    "country": "Brasil",
+    "region": "Ceara",
+    "latitude": -3.84885,
+    "longitude": -38.45943,
+    "capital": false,
+    "id": 2166,
+    "score": 52
+  },
+  {
+    "name": "Ottawa",
+    "country": "Canada",
+    "region": "Canada",
+    "latitude": 45.4215,
+    "longitude": -75.6972,
+    "capital": true,
+    "id": 129,
+    "score": 92
+  },
+  {
+    "name": "Cartagena - Vila Verde 11",
+    "country": "Colombia",
+    "region": "Colombia",
+    "latitude": 10.364837,
+    "longitude": -75.46123,
+    "capital": false,
+    "id": 2729,
+    "score": 65
+  },
+  {
+    "name": "Hamburgo - Litoral 20",
+    "country": "Alemanha",
+    "region": "Alemanha",
+    "latitude": 53.489493,
+    "longitude": 9.981236,
+    "capital": false,
+    "id": 4947,
+    "score": 60
+  },
+  {
+    "name": "Lyon",
+    "country": "Franca",
+    "region": "Franca",
+    "latitude": 45.764,
+    "longitude": 4.8357,
+    "capital": true,
+    "id": 137,
+    "score": 63
+  },
+  {
+    "name": "Belize - Bairro Novo 8",
+    "country": "Belize",
+    "region": "Belize",
+    "latitude": 17.50608,
+    "longitude": -88.237721,
+    "capital": false,
+    "id": 2032,
+    "score": 75
+  },
+  {
+    "name": "Osaka - Estacao 16",
+    "country": "Japao",
+    "region": "Japao",
+    "latitude": 34.658913,
+    "longitude": 135.602612,
+    "capital": false,
+    "id": 4039,
+    "score": 11
+  },
+  {
+    "name": "Diadema - Porto 15",
+    "country": "Brasil",
+    "region": "Sao Paulo",
+    "latitude": -23.524742,
+    "longitude": -46.5064,
+    "capital": false,
+    "id": 3677,
+    "score": 59
+  },
+  {
+    "name": "Roterda - Setor Universitario 14",
+    "country": "Holanda",
+    "region": "Holanda",
+    "latitude": 51.966765,
+    "longitude": 4.624338,
+    "capital": false,
+    "id": 3503,
+    "score": 66
+  },
+  {
+    "name": "Wellington - Setor Industrial 6",
+    "country": "Nova Zelandia",
+    "region": "Nova Zelandia",
+    "latitude": -41.285638,
+    "longitude": 174.736017,
+    "capital": false,
+    "id": 1680,
+    "score": 91
+  },
+  {
+    "name": "Sao Petersburgo - Zona Norte 2",
+    "country": "Russia",
+    "region": "Russia",
+    "latitude": 59.856122,
+    "longitude": 30.26258,
+    "capital": false,
+    "id": 641,
+    "score": 83
+  },
+  {
+    "name": "Napoles - Centro",
+    "country": "Italia",
+    "region": "Italia",
+    "latitude": 40.782773,
+    "longitude": 14.411733,
+    "capital": false,
+    "id": 394,
+    "score": 83
+  },
+  {
+    "name": "Manchester - Setor Industrial 6",
+    "country": "Reino Unido",
+    "region": "Reino Unido",
+    "latitude": 53.35978,
+    "longitude": -2.079514,
+    "capital": false,
+    "id": 1579,
+    "score": 64
+  },
+  {
+    "name": "Ho Chi Minh - Parque das Nacoes 13",
+    "country": "Vietna",
+    "region": "Vietna",
+    "latitude": 10.691559,
+    "longitude": 106.485557,
+    "capital": false,
+    "id": 3329,
+    "score": 35
+  },
+  {
+    "name": "Bogota - Setor Universitario 14",
+    "country": "Colombia",
+    "region": "Colombia",
+    "latitude": 4.729982,
+    "longitude": -74.140763,
+    "capital": false,
+    "id": 3447,
+    "score": 98
+  },
+  {
+    "name": "Brisbane - Zona Norte 2",
+    "country": "Australia",
+    "region": "Australia",
+    "latitude": -27.301583,
+    "longitude": 153.134752,
+    "capital": false,
+    "id": 717,
+    "score": 36
+  },
+  {
+    "name": "Cidade do Kuwait - Zona Oeste 5",
+    "country": "Kuwait",
+    "region": "Kuwait",
+    "latitude": 29.351468,
+    "longitude": 47.807909,
+    "capital": false,
+    "id": 1428,
+    "score": 15
+  },
+  {
+    "name": "Budapeste - Colina 18",
+    "country": "Hungria",
+    "region": "Hungria",
+    "latitude": 47.493676,
+    "longitude": 18.988268,
+    "capital": false,
+    "id": 4486,
+    "score": 98
+  },
+  {
+    "name": "Bauru - Bairro Alto 7",
+    "country": "Brasil",
+    "region": "Sao Paulo",
+    "latitude": -22.292578,
+    "longitude": -49.203973,
+    "capital": false,
+    "id": 1719,
+    "score": 10
+  },
+  {
+    "name": "Dubai - Estacao 16",
+    "country": "Emirados Arabes Unidos",
+    "region": "Emirados Arabes Unidos",
+    "latitude": 25.180392,
+    "longitude": 55.346282,
+    "capital": false,
+    "id": 4064,
+    "score": 72
+  },
+  {
+    "name": "Tunis - Zona Oeste 5",
+    "country": "Tunisia",
+    "region": "Tunisia",
+    "latitude": 36.731379,
+    "longitude": 10.250921,
+    "capital": false,
+    "id": 1388,
+    "score": 14
+  },
+  {
+    "name": "Manila - Porto 15",
+    "country": "Filipinas",
+    "region": "Filipinas",
+    "latitude": 14.596973,
+    "longitude": 121.07506,
+    "capital": false,
+    "id": 3813,
+    "score": 76
+  },
+  {
+    "name": "Adis Abeba",
+    "country": "Etiopia",
+    "region": "Etiopia",
+    "latitude": 9.03,
+    "longitude": 38.74,
+    "capital": true,
+    "id": 181,
+    "score": 71
+  },
+  {
+    "name": "Campinas - Vale 19",
+    "country": "Brasil",
+    "region": "Sao Paulo",
+    "latitude": -23.03657,
+    "longitude": -46.924503,
+    "capital": false,
+    "id": 4588,
+    "score": 60
+  },
+  {
+    "name": "Budapeste",
+    "country": "Hungria",
+    "region": "Hungria",
+    "latitude": 47.4979,
+    "longitude": 19.0402,
+    "capital": true,
+    "id": 166,
+    "score": 65
+  },
+  {
+    "name": "Abu Dhabi - Distrito Comercial 9",
+    "country": "Emirados Arabes Unidos",
+    "region": "Emirados Arabes Unidos",
+    "latitude": 24.378788,
+    "longitude": 54.29359,
+    "capital": false,
+    "id": 2385,
+    "score": 18
+  },
+  {
+    "name": "Abu Dhabi - Mirante 17",
+    "country": "Emirados Arabes Unidos",
+    "region": "Emirados Arabes Unidos",
+    "latitude": 24.354378,
+    "longitude": 54.238948,
+    "capital": false,
+    "id": 4305,
+    "score": 13
+  },
+  {
+    "name": "Berlim - Planalto 21",
+    "country": "Alemanha",
+    "region": "Alemanha",
+    "latitude": 52.386592,
+    "longitude": 13.341668,
+    "capital": false,
+    "id": 5185,
+    "score": 36
+  },
+  {
+    "name": "Edimburgo - Distrito Historico 10",
+    "country": "Reino Unido",
+    "region": "Reino Unido",
+    "latitude": 55.88142,
+    "longitude": -3.288421,
+    "capital": false,
+    "id": 2540,
+    "score": 41
+  },
+  {
+    "name": "Abuja - Jardim das Flores 12",
+    "country": "Nigeria",
+    "region": "Nigeria",
+    "latitude": 8.966239,
+    "longitude": 7.505381,
+    "capital": false,
+    "id": 3059,
+    "score": 11
+  },
+  {
+    "name": "Cracovia - Colina 18",
+    "country": "Polonia",
+    "region": "Polonia",
+    "latitude": 50.181962,
+    "longitude": 19.777754,
+    "capital": false,
+    "id": 4484,
+    "score": 71
+  },
+  {
+    "name": "Luanda - Zona Norte 2",
+    "country": "Angola",
+    "region": "Angola",
+    "latitude": -9.002443,
+    "longitude": 13.396012,
+    "capital": false,
+    "id": 673,
+    "score": 19
+  },
+  {
+    "name": "Rio de Janeiro - Vila Verde 11",
+    "country": "Brasil",
+    "region": "Rio de Janeiro",
+    "latitude": -23.075197,
+    "longitude": -43.077666,
+    "capital": false,
+    "id": 2659,
+    "score": 57
+  },
+  {
+    "name": "Bucareste - Setor Industrial 6",
+    "country": "Romenia",
+    "region": "Romenia",
+    "latitude": 44.550945,
+    "longitude": 26.040328,
+    "capital": false,
+    "id": 1607,
+    "score": 35
+  },
+  {
+    "name": "Kingston - Distrito Comercial 9",
+    "country": "Jamaica",
+    "region": "Jamaica",
+    "latitude": 18.073364,
+    "longitude": -76.799512,
+    "capital": false,
+    "id": 2265,
+    "score": 100
+  },
+  {
+    "name": "Melbourne - Zona Norte 2",
+    "country": "Australia",
+    "region": "Australia",
+    "latitude": -37.732882,
+    "longitude": 145.135879,
+    "capital": false,
+    "id": 716,
+    "score": 88
+  },
+  {
+    "name": "Atlanta - Centro",
+    "country": "Estados Unidos",
+    "region": "Estados Unidos",
+    "latitude": 33.810808,
+    "longitude": -84.460001,
+    "capital": false,
+    "id": 365,
+    "score": 97
+  },
+  {
+    "name": "Maringa - Vale 19",
+    "country": "Brasil",
+    "region": "Parana",
+    "latitude": -23.306935,
+    "longitude": -52.03367,
+    "capital": false,
+    "id": 4607,
+    "score": 72
+  },
+  {
+    "name": "Cidade do Cabo - Vila Verde 11",
+    "country": "Africa do Sul",
+    "region": "Africa do Sul",
+    "latitude": -33.937357,
+    "longitude": 18.32751,
+    "capital": false,
+    "id": 2823,
+    "score": 45
+  },
+  {
+    "name": "Paris - Bairro Novo 8",
+    "country": "Franca",
+    "region": "Franca",
+    "latitude": 48.946667,
+    "longitude": 2.230137,
+    "capital": false,
+    "id": 2055,
+    "score": 11
+  },
+  {
+    "name": "Buenos Aires - Jardim das Flores 12",
+    "country": "Argentina",
+    "region": "Argentina",
+    "latitude": -34.441524,
+    "longitude": -58.33189,
+    "capital": false,
+    "id": 2959,
+    "score": 51
+  },
+  {
+    "name": "Tegucigalpa - Bairro Novo 8",
+    "country": "Honduras",
+    "region": "Honduras",
+    "latitude": 14.10058,
+    "longitude": -87.109122,
+    "capital": false,
+    "id": 2029,
+    "score": 11
+  },
+  {
+    "name": "Brisbane - Zona Sul 3",
+    "country": "Australia",
+    "region": "Australia",
+    "latitude": -27.385941,
+    "longitude": 153.071273,
+    "capital": false,
+    "id": 957,
+    "score": 53
+  },
+  {
+    "name": "Tel Aviv - Mirante 17",
+    "country": "Israel",
+    "region": "Israel",
+    "latitude": 32.258046,
+    "longitude": 34.716871,
+    "capital": false,
+    "id": 4313,
+    "score": 38
+  },
+  {
+    "name": "Paris - Distrito Historico 10",
+    "country": "Franca",
+    "region": "Franca",
+    "latitude": 48.768072,
+    "longitude": 2.518395,
+    "capital": false,
+    "id": 2535,
+    "score": 45
+  },
+  {
+    "name": "Lagos - Centro",
+    "country": "Nigeria",
+    "region": "Nigeria",
+    "latitude": 6.693744,
+    "longitude": 3.263484,
+    "capital": false,
+    "id": 418,
+    "score": 47
+  },
+  {
+    "name": "Tunis - Zona Leste 4",
+    "country": "Tunisia",
+    "region": "Tunisia",
+    "latitude": 36.698304,
+    "longitude": 10.348509,
+    "capital": false,
+    "id": 1148,
+    "score": 37
+  },
+  {
+    "name": "Cidade da Guatemala - Zona Leste 4",
+    "country": "Guatemala",
+    "region": "Guatemala",
+    "latitude": 14.802907,
+    "longitude": -90.609448,
+    "capital": false,
+    "id": 1071,
+    "score": 34
+  },
+  {
+    "name": "Dallas - Zona Norte 2",
+    "country": "Estados Unidos",
+    "region": "Estados Unidos",
+    "latitude": 32.897645,
+    "longitude": -96.769928,
+    "capital": false,
+    "id": 602,
+    "score": 83
+  },
+  {
+    "name": "Imperatriz - Zona Leste 4",
+    "country": "Brasil",
+    "region": "Maranhao",
+    "latitude": -5.640893,
+    "longitude": -47.323845,
+    "capital": false,
+    "id": 1030,
+    "score": 87
+  },
+  {
+    "name": "Volta Redonda - Bairro Alto 7",
+    "country": "Brasil",
+    "region": "Rio de Janeiro",
+    "latitude": -22.392042,
+    "longitude": -44.049851,
+    "capital": false,
+    "id": 1741,
+    "score": 46
+  },
+  {
+    "name": "Los Angeles - Distrito Comercial 9",
+    "country": "Estados Unidos",
+    "region": "Estados Unidos",
+    "latitude": 34.070407,
+    "longitude": -118.172759,
+    "capital": false,
+    "id": 2274,
+    "score": 64
+  },
+  {
+    "name": "Cidade do Kuwait - Jardim das Flores 12",
+    "country": "Kuwait",
+    "region": "Kuwait",
+    "latitude": 29.228563,
+    "longitude": 47.970122,
+    "capital": false,
+    "id": 3108,
+    "score": 54
+  },
+  {
+    "name": "Pretoria - Porto 15",
+    "country": "Africa do Sul",
+    "region": "Africa do Sul",
+    "latitude": -25.673305,
+    "longitude": 28.255218,
+    "capital": false,
+    "id": 3784,
+    "score": 57
+  },
+  {
+    "name": "Porto - Centro",
+    "country": "Portugal",
+    "region": "Portugal",
+    "latitude": 41.295011,
+    "longitude": -8.492563,
+    "capital": false,
+    "id": 371,
+    "score": 80
+  },
+  {
+    "name": "San Salvador - Jardim das Flores 12",
+    "country": "El Salvador",
+    "region": "El Salvador",
+    "latitude": 13.795637,
+    "longitude": -89.203754,
+    "capital": false,
+    "id": 2990,
+    "score": 33
+  },
+  {
+    "name": "Abidjan - Zona Leste 4",
+    "country": "Costa do Marfim",
+    "region": "Costa do Marfim",
+    "latitude": 5.440322,
+    "longitude": -3.851099,
+    "capital": false,
+    "id": 1152,
+    "score": 28
+  },
+  {
+    "name": "Rio de Janeiro - Planalto 21",
+    "country": "Brasil",
+    "region": "Rio de Janeiro",
+    "latitude": -22.977143,
+    "longitude": -43.087873,
+    "capital": false,
+    "id": 5059,
+    "score": 68
+  },
+  {
+    "name": "Campos dos Goytacazes - Zona Leste 4",
+    "country": "Brasil",
+    "region": "Rio de Janeiro",
+    "latitude": -21.892204,
+    "longitude": -41.213566,
+    "capital": false,
+    "id": 1018,
+    "score": 57
+  },
+  {
+    "name": "San Jose - Estacao 16",
+    "country": "Costa Rica",
+    "region": "Costa Rica",
+    "latitude": 9.89883,
+    "longitude": -84.212279,
+    "capital": false,
+    "id": 3947,
+    "score": 34
+  },
+  {
+    "name": "Seattle - Bairro Alto 7",
+    "country": "Estados Unidos",
+    "region": "Estados Unidos",
+    "latitude": 47.637856,
+    "longitude": -122.239084,
+    "capital": false,
+    "id": 1799,
+    "score": 46
+  },
+  {
+    "name": "Atlanta - Mirante 17",
+    "country": "Estados Unidos",
+    "region": "Estados Unidos",
+    "latitude": 33.897711,
+    "longitude": -84.307992,
+    "capital": false,
+    "id": 4205,
+    "score": 13
+  },
+  {
+    "name": "Cartagena",
+    "country": "Colombia",
+    "region": "Colombia",
+    "latitude": 10.391,
+    "longitude": -75.4794,
+    "capital": true,
+    "id": 89,
+    "score": 99
+  },
+  {
+    "name": "Niteroi - Centro",
+    "country": "Brasil",
+    "region": "Rio de Janeiro",
+    "latitude": -22.883089,
+    "longitude": -43.219285,
+    "capital": false,
+    "id": 297,
+    "score": 11
+  },
+  {
+    "name": "La Paz - Zona Leste 4",
+    "country": "Bolivia",
+    "region": "Bolivia",
+    "latitude": -16.65373,
+    "longitude": -68.308431,
+    "capital": false,
+    "id": 1053,
+    "score": 22
+  },
+  {
+    "name": "Palmas - Estacao 16",
+    "country": "Brasil",
+    "region": "Tocantins",
+    "latitude": -10.171129,
+    "longitude": -48.38102,
+    "capital": false,
+    "id": 3867,
+    "score": 44
+  },
+  {
+    "name": "Joanesburgo - Zona Oeste 5",
+    "country": "Africa do Sul",
+    "region": "Africa do Sul",
+    "latitude": -26.090162,
+    "longitude": 28.008757,
+    "capital": false,
+    "id": 1382,
+    "score": 51
+  },
+  {
+    "name": "Argel - Mirante 17",
+    "country": "Argelia",
+    "region": "Argelia",
+    "latitude": 36.796407,
+    "longitude": 3.115995,
+    "capital": false,
+    "id": 4267,
+    "score": 18
+  },
+  {
+    "name": "Maputo - Bairro Alto 7",
+    "country": "Mocambique",
+    "region": "Mocambique",
+    "latitude": -25.966567,
+    "longitude": 32.697551,
+    "capital": false,
+    "id": 1874,
+    "score": 83
+  },
+  {
+    "name": "Porto Alegre - Colina 18",
+    "country": "Brasil",
+    "region": "Rio Grande do Sul",
+    "latitude": -29.963905,
+    "longitude": -51.327467,
+    "capital": false,
+    "id": 4341,
+    "score": 72
+  },
+  {
+    "name": "Dublin - Setor Universitario 14",
+    "country": "Irlanda",
+    "region": "Irlanda",
+    "latitude": 53.316869,
+    "longitude": -6.387761,
+    "capital": false,
+    "id": 3501,
+    "score": 88
+  },
+  {
+    "name": "Atenas - Colina 18",
+    "country": "Grecia",
+    "region": "Grecia",
+    "latitude": 38.132856,
+    "longitude": 23.637415,
+    "capital": false,
+    "id": 4477,
+    "score": 98
+  },
+  {
+    "name": "Rio Verde - Bairro Alto 7",
+    "country": "Brasil",
+    "region": "Goias",
+    "latitude": -17.909106,
+    "longitude": -50.855509,
+    "capital": false,
+    "id": 1754,
+    "score": 53
+  },
+  {
+    "name": "Cusco - Zona Sul 3",
+    "country": "Peru",
+    "region": "Peru",
+    "latitude": -13.458928,
+    "longitude": -72.036266,
+    "capital": false,
+    "id": 806,
+    "score": 78
+  },
+  {
+    "name": "San Salvador - Zona Leste 4",
+    "country": "El Salvador",
+    "region": "El Salvador",
+    "latitude": 13.853184,
+    "longitude": -89.21624,
+    "capital": false,
+    "id": 1070,
+    "score": 11
+  },
+  {
+    "name": "Argel - Zona Leste 4",
+    "country": "Argelia",
+    "region": "Argelia",
+    "latitude": 36.890024,
+    "longitude": 3.050681,
+    "capital": false,
+    "id": 1147,
+    "score": 87
+  },
+  {
+    "name": "Barcelona - Colina 18",
+    "country": "Espanha",
+    "region": "Espanha",
+    "latitude": 41.319985,
+    "longitude": 2.021051,
+    "capital": false,
+    "id": 4453,
+    "score": 45
+  },
+  {
+    "name": "Manchester - Mirante 17",
+    "country": "Reino Unido",
+    "region": "Reino Unido",
+    "latitude": 53.511818,
+    "longitude": -2.098242,
+    "capital": false,
+    "id": 4219,
+    "score": 86
+  },
+  {
+    "name": "Helsinque - Zona Leste 4",
+    "country": "Finlandia",
+    "region": "Finlandia",
+    "latitude": 60.149155,
+    "longitude": 24.85072,
+    "capital": false,
+    "id": 1135,
+    "score": 81
+  },
+  {
+    "name": "Sorocaba - Setor Universitario 14",
+    "country": "Brasil",
+    "region": "Sao Paulo",
+    "latitude": -23.456513,
+    "longitude": -47.469438,
+    "capital": false,
+    "id": 3391,
+    "score": 33
+  },
+  {
+    "name": "Bogota - Estacao 16",
+    "country": "Colombia",
+    "region": "Colombia",
+    "latitude": 4.760451,
+    "longitude": -74.159837,
+    "capital": false,
+    "id": 3927,
+    "score": 73
+  },
+  {
+    "name": "Carachi - Vila Verde 11",
+    "country": "Paquistao",
+    "region": "Paquistao",
+    "latitude": 24.794675,
+    "longitude": 67.0264,
+    "capital": false,
+    "id": 2859,
+    "score": 47
+  },
+  {
+    "name": "Pelotas - Distrito Historico 10",
+    "country": "Brasil",
+    "region": "Rio Grande do Sul",
+    "latitude": -31.667759,
+    "longitude": -52.358134,
+    "capital": false,
+    "id": 2452,
+    "score": 78
+  },
+  {
+    "name": "Viena - Distrito Historico 10",
+    "country": "Austria",
+    "region": "Austria",
+    "latitude": 48.288689,
+    "longitude": 16.479246,
+    "capital": false,
+    "id": 2551,
+    "score": 17
+  },
+  {
+    "name": "Roterda - Zona Leste 4",
+    "country": "Holanda",
+    "region": "Holanda",
+    "latitude": 52.026245,
+    "longitude": 4.577118,
+    "capital": false,
+    "id": 1103,
+    "score": 85
+  },
+  {
+    "name": "Guayaquil - Mirante 17",
+    "country": "Equador",
+    "region": "Equador",
+    "latitude": -2.300112,
+    "longitude": -79.840728,
+    "capital": false,
+    "id": 4171,
+    "score": 51
+  },
+  {
+    "name": "San Salvador - Zona Norte 2",
+    "country": "El Salvador",
+    "region": "El Salvador",
+    "latitude": 13.66595,
+    "longitude": -89.202158,
+    "capital": false,
+    "id": 590,
+    "score": 64
+  },
+  {
+    "name": "Catmandu - Setor Industrial 6",
+    "country": "Nepal",
+    "region": "Nepal",
+    "latitude": 27.835768,
+    "longitude": 85.263358,
+    "capital": false,
+    "id": 1662,
+    "score": 89
+  },
+  {
+    "name": "Moscou - Zona Norte 2",
+    "country": "Russia",
+    "region": "Russia",
+    "latitude": 55.758586,
+    "longitude": 37.732698,
+    "capital": false,
+    "id": 640,
+    "score": 46
+  },
+  {
+    "name": "Belgrado - Distrito Comercial 9",
+    "country": "Servia",
+    "region": "Servia",
+    "latitude": 44.645008,
+    "longitude": 20.600168,
+    "capital": false,
+    "id": 2329,
+    "score": 41
+  },
+  {
+    "name": "Quioto - Jardim das Flores 12",
+    "country": "Japao",
+    "region": "Japao",
+    "latitude": 34.880706,
+    "longitude": 135.847236,
+    "capital": false,
+    "id": 3080,
+    "score": 100
+  },
+  {
+    "name": "Vitoria da Conquista - Vale 19",
+    "country": "Brasil",
+    "region": "Bahia",
+    "latitude": -14.751023,
+    "longitude": -40.807214,
+    "capital": false,
+    "id": 4623,
+    "score": 91
+  },
+  {
+    "name": "Bangalore - Zona Norte 2",
+    "country": "India",
+    "region": "India",
+    "latitude": 12.970422,
+    "longitude": 77.740096,
+    "capital": false,
+    "id": 696,
+    "score": 96
+  },
+  {
+    "name": "Busan",
+    "country": "Coreia do Sul",
+    "region": "Coreia do Sul",
+    "latitude": 35.1796,
+    "longitude": 129.0756,
+    "capital": true,
+    "id": 202,
+    "score": 88
+  },
+  {
+    "name": "Feira de Santana",
+    "country": "Brasil",
+    "region": "Bahia",
+    "latitude": -12.2664,
+    "longitude": -38.9663,
+    "capital": false,
+    "id": 62,
+    "score": 22
+  },
+  {
+    "name": "Ciudad del Este",
+    "country": "Paraguai",
+    "region": "Paraguai",
+    "latitude": -25.5163,
+    "longitude": -54.6115,
+    "capital": true,
+    "id": 97,
+    "score": 62
+  },
+  {
+    "name": "Manaus - Estacao 16",
+    "country": "Brasil",
+    "region": "Amazonas",
+    "latitude": -3.136021,
+    "longitude": -60.113166,
+    "capital": false,
+    "id": 3844,
+    "score": 70
+  },
+  {
+    "name": "Houston - Planalto 21",
+    "country": "Estados Unidos",
+    "region": "Estados Unidos",
+    "latitude": 29.646931,
+    "longitude": -95.255122,
+    "capital": false,
+    "id": 5156,
+    "score": 67
+  },
+  {
+    "name": "Aman - Bairro Novo 8",
+    "country": "Jordania",
+    "region": "Jordania",
+    "latitude": 32.101053,
+    "longitude": 36.106353,
+    "capital": false,
+    "id": 2151,
+    "score": 66
+  },
+  {
+    "name": "Varsovia - Centro",
+    "country": "Polonia",
+    "region": "Polonia",
+    "latitude": 52.058623,
+    "longitude": 21.097363,
+    "capital": false,
+    "id": 403,
+    "score": 13
+  },
+  {
+    "name": "Pelotas - Bairro Alto 7",
+    "country": "Brasil",
+    "region": "Rio Grande do Sul",
+    "latitude": -31.715323,
+    "longitude": -52.198405,
+    "capital": false,
+    "id": 1732,
+    "score": 22
+  },
+  {
+    "name": "Toquio - Zona Sul 3",
+    "country": "Japao",
+    "region": "Japao",
+    "latitude": 35.784653,
+    "longitude": 139.520123,
+    "capital": false,
+    "id": 918,
+    "score": 79
+  },
+  {
+    "name": "Islamabad - Mirante 17",
+    "country": "Paquistao",
+    "region": "Paquistao",
+    "latitude": 33.720645,
+    "longitude": 73.099735,
+    "capital": false,
+    "id": 4300,
+    "score": 40
+  },
+  {
+    "name": "Acra - Zona Oeste 5",
+    "country": "Gana",
+    "region": "Gana",
+    "latitude": 5.570991,
+    "longitude": -0.187251,
+    "capital": false,
+    "id": 1390,
+    "score": 99
+  },
+  {
+    "name": "Cidade do Mexico - Zona Leste 4",
+    "country": "Mexico",
+    "region": "Mexico",
+    "latitude": 19.603735,
+    "longitude": -99.266124,
+    "capital": false,
+    "id": 1058,
+    "score": 17
+  },
+  {
+    "name": "Ilheus - Distrito Comercial 9",
+    "country": "Brasil",
+    "region": "Bahia",
+    "latitude": -14.962197,
+    "longitude": -38.970363,
+    "capital": false,
+    "id": 2224,
+    "score": 30
+  },
+  {
+    "name": "Auckland - Zona Leste 4",
+    "country": "Nova Zelandia",
+    "region": "Nova Zelandia",
+    "latitude": -36.954555,
+    "longitude": 174.793233,
+    "capital": false,
+    "id": 1199,
+    "score": 92
+  },
+  {
+    "name": "Rio Branco - Porto 15",
+    "country": "Brasil",
+    "region": "Acre",
+    "latitude": -10.047847,
+    "longitude": -67.792905,
+    "capital": false,
+    "id": 3601,
+    "score": 29
+  },
+  {
+    "name": "Banguecoque - Setor Industrial 6",
+    "country": "Tailandia",
+    "region": "Tailandia",
+    "latitude": 13.704367,
+    "longitude": 100.506645,
+    "capital": false,
+    "id": 1647,
+    "score": 60
+  },
+  {
+    "name": "Wellington - Zona Leste 4",
+    "country": "Nova Zelandia",
+    "region": "Nova Zelandia",
+    "latitude": -41.433761,
+    "longitude": 174.779935,
+    "capital": false,
+    "id": 1200,
+    "score": 71
+  },
+  {
+    "name": "Kiev - Distrito Historico 10",
+    "country": "Ucrania",
+    "region": "Ucrania",
+    "latitude": 50.274216,
+    "longitude": 30.623271,
+    "capital": false,
+    "id": 2562,
+    "score": 32
+  },
+  {
+    "name": "Vitoria - Vale 19",
+    "country": "Brasil",
+    "region": "Espirito Santo",
+    "latitude": -20.471125,
+    "longitude": -40.341959,
+    "capital": false,
+    "id": 4568,
+    "score": 92
+  },
+  {
+    "name": "Petrolina - Bairro Alto 7",
+    "country": "Brasil",
+    "region": "Pernambuco",
+    "latitude": -9.226502,
+    "longitude": -40.656288,
+    "capital": false,
+    "id": 1745,
+    "score": 63
+  },
+  {
+    "name": "Santo Domingo - Jardim das Flores 12",
+    "country": "Republica Dominicana",
+    "region": "Republica Dominicana",
+    "latitude": 18.359688,
+    "longitude": -69.880679,
+    "capital": false,
+    "id": 2983,
+    "score": 21
+  },
+  {
+    "name": "Joanesburgo - Mirante 17",
+    "country": "Africa do Sul",
+    "region": "Africa do Sul",
+    "latitude": -26.132709,
+    "longitude": 28.128379,
+    "capital": false,
+    "id": 4262,
+    "score": 75
+  },
+  {
+    "name": "Banguecoque - Jardim das Flores 12",
+    "country": "Tailandia",
+    "region": "Tailandia",
+    "latitude": 13.793609,
+    "longitude": 100.606037,
+    "capital": false,
+    "id": 3087,
+    "score": 50
+  },
+  {
+    "name": "Belem - Litoral 20",
+    "country": "Brasil",
+    "region": "Para",
+    "latitude": -1.353894,
+    "longitude": -48.455234,
+    "capital": false,
+    "id": 4814,
+    "score": 64
+  },
+  {
+    "name": "Santarem - Distrito Historico 10",
+    "country": "Brasil",
+    "region": "Para",
+    "latitude": -2.26009,
+    "longitude": -54.653052,
+    "capital": false,
+    "id": 2472,
+    "score": 13
+  },
+  {
+    "name": "Kuala Lumpur - Zona Sul 3",
+    "country": "Malasia",
+    "region": "Malasia",
+    "latitude": 3.294097,
+    "longitude": 101.809003,
+    "capital": false,
+    "id": 931,
+    "score": 92
+  },
+  {
+    "name": "Belgrado - Zona Leste 4",
+    "country": "Servia",
+    "region": "Servia",
+    "latitude": 44.705045,
+    "longitude": 20.312775,
+    "capital": false,
+    "id": 1129,
+    "score": 70
+  },
+  {
+    "name": "Berlim - Mirante 17",
+    "country": "Alemanha",
+    "region": "Alemanha",
+    "latitude": 52.488179,
+    "longitude": 13.540504,
+    "capital": false,
+    "id": 4225,
+    "score": 45
+  },
+  {
+    "name": "Recife - Colina 18",
+    "country": "Brasil",
+    "region": "Pernambuco",
+    "latitude": -8.030341,
+    "longitude": -34.935532,
+    "capital": false,
+    "id": 4337,
+    "score": 14
+  },
+  {
+    "name": "Brisbane - Distrito Comercial 9",
+    "country": "Australia",
+    "region": "Australia",
+    "latitude": -27.374401,
+    "longitude": 152.87507,
+    "capital": false,
+    "id": 2397,
+    "score": 88
+  },
+  {
+    "name": "Lagos - Jardim das Flores 12",
+    "country": "Nigeria",
+    "region": "Nigeria",
+    "latitude": 6.581758,
+    "longitude": 3.298714,
+    "capital": false,
+    "id": 3058,
+    "score": 28
+  },
+  {
+    "name": "Denver - Colina 18",
+    "country": "Estados Unidos",
+    "region": "Estados Unidos",
+    "latitude": 39.578231,
+    "longitude": -104.909149,
+    "capital": false,
+    "id": 4443,
+    "score": 30
+  },
+  {
+    "name": "Vancouver - Zona Sul 3",
+    "country": "Canada",
+    "region": "Canada",
+    "latitude": 49.428832,
+    "longitude": -123.174925,
+    "capital": false,
+    "id": 847,
+    "score": 77
+  },
+  {
+    "name": "Osasco - Planalto 21",
+    "country": "Brasil",
+    "region": "Sao Paulo",
+    "latitude": -23.397128,
+    "longitude": -46.727431,
+    "capital": false,
+    "id": 5076,
+    "score": 59
+  },
+  {
+    "name": "Tunis - Distrito Comercial 9",
+    "country": "Tunisia",
+    "region": "Tunisia",
+    "latitude": 36.823983,
+    "longitude": 10.08687,
+    "capital": false,
+    "id": 2348,
+    "score": 51
+  },
+  {
+    "name": "Acra - Mirante 17",
+    "country": "Gana",
+    "region": "Gana",
+    "latitude": 5.768417,
+    "longitude": -0.074457,
+    "capital": false,
+    "id": 4270,
+    "score": 23
+  },
+  {
+    "name": "Montreal - Setor Industrial 6",
+    "country": "Canada",
+    "region": "Canada",
+    "latitude": 45.395051,
+    "longitude": -73.456498,
+    "capital": false,
+    "id": 1568,
+    "score": 26
+  },
+  {
+    "name": "Aman - Vale 19",
+    "country": "Jordania",
+    "region": "Jordania",
+    "latitude": 32.018225,
+    "longitude": 35.919839,
+    "capital": false,
+    "id": 4791,
+    "score": 87
+  },
+  {
+    "name": "Blumenau - Bairro Novo 8",
+    "country": "Brasil",
+    "region": "Santa Catarina",
+    "latitude": -26.947438,
+    "longitude": -49.23425,
+    "capital": false,
+    "id": 1975,
+    "score": 98
+  },
+  {
+    "name": "Acra - Litoral 20",
+    "country": "Gana",
+    "region": "Gana",
+    "latitude": 5.469164,
+    "longitude": -0.056718,
+    "capital": false,
+    "id": 4990,
+    "score": 50
+  },
+  {
+    "name": "Franca - Litoral 20",
+    "country": "Brasil",
+    "region": "Sao Paulo",
+    "latitude": -20.564382,
+    "longitude": -47.517118,
+    "capital": false,
+    "id": 4840,
+    "score": 71
+  },
+  {
+    "name": "Tel Aviv",
+    "country": "Israel",
+    "region": "Israel",
+    "latitude": 32.0853,
+    "longitude": 34.7818,
+    "capital": true,
+    "id": 233,
+    "score": 88
+  },
+  {
+    "name": "Blumenau - Litoral 20",
+    "country": "Brasil",
+    "region": "Santa Catarina",
+    "latitude": -27.025098,
+    "longitude": -49.081753,
+    "capital": false,
+    "id": 4855,
+    "score": 60
+  },
+  {
+    "name": "Tel Aviv - Centro",
+    "country": "Israel",
+    "region": "Israel",
+    "latitude": 32.099755,
+    "longitude": 34.651615,
+    "capital": false,
+    "id": 473,
+    "score": 62
+  },
+  {
+    "name": "Rio de Janeiro - Zona Norte 2",
+    "country": "Brasil",
+    "region": "Rio de Janeiro",
+    "latitude": -22.995982,
+    "longitude": -43.323414,
+    "capital": false,
+    "id": 499,
+    "score": 46
+  },
+  {
+    "name": "Doha - Estacao 16",
+    "country": "Catar",
+    "region": "Catar",
+    "latitude": 25.286291,
+    "longitude": 51.597541,
+    "capital": false,
+    "id": 4067,
+    "score": 65
+  },
+  {
+    "name": "Ottawa - Zona Leste 4",
+    "country": "Canada",
+    "region": "Canada",
+    "latitude": 45.290833,
+    "longitude": -75.757305,
+    "capital": false,
+    "id": 1089,
+    "score": 23
+  },
+  {
+    "name": "Singapura - Zona Oeste 5",
+    "country": "Singapura",
+    "region": "Singapura",
+    "latitude": 1.450143,
+    "longitude": 103.851692,
+    "capital": false,
+    "id": 1410,
+    "score": 66
+  },
+  {
+    "name": "Abu Dhabi - Bairro Alto 7",
+    "country": "Emirados Arabes Unidos",
+    "region": "Emirados Arabes Unidos",
+    "latitude": 24.408217,
+    "longitude": 54.202368,
+    "capital": false,
+    "id": 1905,
+    "score": 13
+  },
+  {
+    "name": "Sao Bernardo do Campo - Colina 18",
+    "country": "Brasil",
+    "region": "Sao Paulo",
+    "latitude": -23.538045,
+    "longitude": -46.710023,
+    "capital": false,
+    "id": 4355,
+    "score": 90
+  },
+  {
+    "name": "Veneza - Setor Industrial 6",
+    "country": "Italia",
+    "region": "Italia",
+    "latitude": 45.430635,
+    "longitude": 12.273373,
+    "capital": false,
+    "id": 1595,
+    "score": 32
+  },
+  {
+    "name": "Veneza - Vila Verde 11",
+    "country": "Italia",
+    "region": "Italia",
+    "latitude": 45.27741,
+    "longitude": 12.322908,
+    "capital": false,
+    "id": 2795,
+    "score": 62
+  },
+  {
+    "name": "Cusco - Setor Universitario 14",
+    "country": "Peru",
+    "region": "Peru",
+    "latitude": -13.427931,
+    "longitude": -72.061217,
+    "capital": false,
+    "id": 3446,
+    "score": 90
+  },
+  {
+    "name": "Mossoro - Vale 19",
+    "country": "Brasil",
+    "region": "Rio Grande do Norte",
+    "latitude": -5.278097,
+    "longitude": -37.494006,
+    "capital": false,
+    "id": 4627,
+    "score": 98
+  },
+  {
+    "name": "Florenca",
+    "country": "Italia",
+    "region": "Italia",
+    "latitude": 43.7696,
+    "longitude": 11.2558,
+    "capital": true,
+    "id": 156,
+    "score": 67
+  },
+  {
+    "name": "Manchester - Parque das Nacoes 13",
+    "country": "Reino Unido",
+    "region": "Reino Unido",
+    "latitude": 53.499201,
+    "longitude": -2.15033,
+    "capital": false,
+    "id": 3259,
+    "score": 86
+  },
+  {
+    "name": "Porto - Setor Universitario 14",
+    "country": "Portugal",
+    "region": "Portugal",
+    "latitude": 41.020146,
+    "longitude": -8.55041,
+    "capital": false,
+    "id": 3491,
+    "score": 24
+  },
+  {
+    "name": "Porto Alegre - Setor Industrial 6",
+    "country": "Brasil",
+    "region": "Rio Grande do Sul",
+    "latitude": -30.115653,
+    "longitude": -51.204161,
+    "capital": false,
+    "id": 1461,
+    "score": 10
+  },
+  {
+    "name": "Bauru - Zona Leste 4",
+    "country": "Brasil",
+    "region": "Sao Paulo",
+    "latitude": -22.297988,
+    "longitude": -49.076494,
+    "capital": false,
+    "id": 999,
+    "score": 73
+  },
+  {
+    "name": "Cordoba - Zona Norte 2",
+    "country": "Argentina",
+    "region": "Argentina",
+    "latitude": -31.407811,
+    "longitude": -64.270048,
+    "capital": false,
+    "id": 560,
+    "score": 33
+  },
+  {
+    "name": "Perth - Mirante 17",
+    "country": "Australia",
+    "region": "Australia",
+    "latitude": -31.964683,
+    "longitude": 115.732592,
+    "capital": false,
+    "id": 4318,
+    "score": 50
+  },
+  {
+    "name": "Rio Branco",
+    "country": "Brasil",
+    "region": "Acre",
+    "latitude": -9.975,
+    "longitude": -67.8243,
+    "capital": true,
+    "id": 1,
+    "score": 80
+  },
+  {
+    "name": "Toronto - Jardim das Flores 12",
+    "country": "Canada",
+    "region": "Canada",
+    "latitude": 43.540613,
+    "longitude": -79.267894,
+    "capital": false,
+    "id": 3006,
+    "score": 84
+  },
+  {
+    "name": "Volta Redonda - Planalto 21",
+    "country": "Brasil",
+    "region": "Rio de Janeiro",
+    "latitude": -22.605659,
+    "longitude": -43.925671,
+    "capital": false,
+    "id": 5101,
+    "score": 24
+  },
+  {
+    "name": "Cidade da Guatemala - Zona Sul 3",
+    "country": "Guatemala",
+    "region": "Guatemala",
+    "latitude": 14.754908,
+    "longitude": -90.396668,
+    "capital": false,
+    "id": 831,
+    "score": 35
+  },
+  {
+    "name": "Milao - Zona Sul 3",
+    "country": "Italia",
+    "region": "Italia",
+    "latitude": 45.407838,
+    "longitude": 9.267154,
+    "capital": false,
+    "id": 873,
+    "score": 100
+  },
+  {
+    "name": "Jerusalem - Centro",
+    "country": "Israel",
+    "region": "Israel",
+    "latitude": 31.671554,
+    "longitude": 35.283522,
+    "capital": false,
+    "id": 474,
+    "score": 56
+  },
+  {
+    "name": "Hanoi - Jardim das Flores 12",
+    "country": "Vietna",
+    "region": "Vietna",
+    "latitude": 21.07818,
+    "longitude": 105.89435,
+    "capital": false,
+    "id": 3088,
+    "score": 79
+  },
+  {
+    "name": "Buenos Aires - Zona Norte 2",
+    "country": "Argentina",
+    "region": "Argentina",
+    "latitude": -34.719101,
+    "longitude": -58.556507,
+    "capital": false,
+    "id": 559,
+    "score": 27
+  },
+  {
+    "name": "Guarulhos - Setor Universitario 14",
+    "country": "Brasil",
+    "region": "Sao Paulo",
+    "latitude": -23.478452,
+    "longitude": -46.519319,
+    "capital": false,
+    "id": 3389,
+    "score": 22
+  },
+  {
+    "name": "Dublin - Bairro Novo 8",
+    "country": "Irlanda",
+    "region": "Irlanda",
+    "latitude": 53.436017,
+    "longitude": -6.128957,
+    "capital": false,
+    "id": 2061,
+    "score": 36
+  },
+  {
+    "name": "Goiania - Vale 19",
+    "country": "Brasil",
+    "region": "Goias",
+    "latitude": -16.53162,
+    "longitude": -49.263407,
+    "capital": false,
+    "id": 4569,
+    "score": 69
+  },
+  {
+    "name": "Atenas - Mirante 17",
+    "country": "Grecia",
+    "region": "Grecia",
+    "latitude": 37.869314,
+    "longitude": 23.888954,
+    "capital": false,
+    "id": 4237,
+    "score": 16
+  },
+  {
+    "name": "Tripoli - Bairro Alto 7",
+    "country": "Libia",
+    "region": "Libia",
+    "latitude": 32.719915,
+    "longitude": 13.266205,
+    "capital": false,
+    "id": 1869,
+    "score": 88
+  },
+  {
+    "name": "Sorocaba - Zona Sul 3",
+    "country": "Brasil",
+    "region": "Sao Paulo",
+    "latitude": -23.606923,
+    "longitude": -47.554858,
+    "capital": false,
+    "id": 751,
+    "score": 46
+  },
+  {
+    "name": "Rio de Janeiro - Bairro Novo 8",
+    "country": "Brasil",
+    "region": "Rio de Janeiro",
+    "latitude": -22.992122,
+    "longitude": -43.164567,
+    "capital": false,
+    "id": 1939,
+    "score": 87
+  },
+  {
+    "name": "Caruaru - Porto 15",
+    "country": "Brasil",
+    "region": "Pernambuco",
+    "latitude": -8.241577,
+    "longitude": -36.112652,
+    "capital": false,
+    "id": 3666,
+    "score": 67
+  },
+  {
+    "name": "Vancouver - Vale 19",
+    "country": "Canada",
+    "region": "Canada",
+    "latitude": 49.431363,
+    "longitude": -123.213401,
+    "capital": false,
+    "id": 4687,
+    "score": 99
+  },
+  {
+    "name": "Osaka - Bairro Novo 8",
+    "country": "Japao",
+    "region": "Japao",
+    "latitude": 34.545208,
+    "longitude": 135.341837,
+    "capital": false,
+    "id": 2119,
+    "score": 36
+  },
+  {
+    "name": "Joinville - Centro",
+    "country": "Brasil",
+    "region": "Santa Catarina",
+    "latitude": -26.444341,
+    "longitude": -48.872185,
+    "capital": false,
+    "id": 294,
+    "score": 69
+  },
+  {
+    "name": "Taipei - Zona Norte 2",
+    "country": "Taiwan",
+    "region": "Taiwan",
+    "latitude": 25.083018,
+    "longitude": 121.538151,
+    "capital": false,
+    "id": 686,
+    "score": 90
+  },
+  {
+    "name": "Volta Redonda - Vale 19",
+    "country": "Brasil",
+    "region": "Rio de Janeiro",
+    "latitude": -22.353761,
+    "longitude": -44.248116,
+    "capital": false,
+    "id": 4621,
+    "score": 23
+  },
+  {
+    "name": "Maputo - Colina 18",
+    "country": "Mocambique",
+    "region": "Mocambique",
+    "latitude": -26.141585,
+    "longitude": 32.449195,
+    "capital": false,
+    "id": 4514,
+    "score": 34
+  },
+  {
+    "name": "Feira de Santana - Setor Universitario 14",
+    "country": "Brasil",
+    "region": "Bahia",
+    "latitude": -12.209725,
+    "longitude": -39.11379,
+    "capital": false,
+    "id": 3422,
+    "score": 89
+  },
+  {
+    "name": "San Salvador - Colina 18",
+    "country": "El Salvador",
+    "region": "El Salvador",
+    "latitude": 13.623258,
+    "longitude": -89.102516,
+    "capital": false,
+    "id": 4430,
+    "score": 88
+  },
+  {
+    "name": "Rosario - Distrito Comercial 9",
+    "country": "Argentina",
+    "region": "Argentina",
+    "latitude": -33.084494,
+    "longitude": -60.645693,
+    "capital": false,
+    "id": 2241,
+    "score": 70
+  },
+  {
+    "name": "Amsterda - Colina 18",
+    "country": "Holanda",
+    "region": "Holanda",
+    "latitude": 52.507309,
+    "longitude": 4.975338,
+    "capital": false,
+    "id": 4462,
+    "score": 43
+  },
+  {
+    "name": "Franca - Distrito Historico 10",
+    "country": "Brasil",
+    "region": "Sao Paulo",
+    "latitude": -20.456841,
+    "longitude": -47.496988,
+    "capital": false,
+    "id": 2440,
+    "score": 35
+  },
+  {
+    "name": "Beirute - Estacao 16",
+    "country": "Libano",
+    "region": "Libano",
+    "latitude": 34.030326,
+    "longitude": 35.487474,
+    "capital": false,
+    "id": 4072,
+    "score": 17
+  },
+  {
+    "name": "Nova York - Vila Verde 11",
+    "country": "Estados Unidos",
+    "region": "Estados Unidos",
+    "latitude": 40.643598,
+    "longitude": -74.003592,
+    "capital": false,
+    "id": 2753,
+    "score": 39
+  },
+  {
+    "name": "Varsovia - Mirante 17",
+    "country": "Polonia",
+    "region": "Polonia",
+    "latitude": 52.274492,
+    "longitude": 21.14481,
+    "capital": false,
+    "id": 4243,
+    "score": 50
+  },
+  {
+    "name": "Chicago - Setor Industrial 6",
+    "country": "Estados Unidos",
+    "region": "Estados Unidos",
+    "latitude": 42.034313,
+    "longitude": -87.762286,
+    "capital": false,
+    "id": 1555,
+    "score": 97
+  },
+  {
+    "name": "Pretoria - Setor Universitario 14",
+    "country": "Africa do Sul",
+    "region": "Africa do Sul",
+    "latitude": -25.867314,
+    "longitude": 28.232446,
+    "capital": false,
+    "id": 3544,
+    "score": 46
+  },
+  {
+    "name": "Calcuta - Litoral 20",
+    "country": "India",
+    "region": "India",
+    "latitude": 22.708031,
+    "longitude": 88.452109,
+    "capital": false,
+    "id": 5017,
+    "score": 79
+  },
+  {
+    "name": "Sobral - Bairro Novo 8",
+    "country": "Brasil",
+    "region": "Ceara",
+    "latitude": -3.562416,
+    "longitude": -40.223026,
+    "capital": false,
+    "id": 1988,
+    "score": 99
+  },
+  {
+    "name": "Carachi - Setor Industrial 6",
+    "country": "Paquistao",
+    "region": "Paquistao",
+    "latitude": 24.688548,
+    "longitude": 66.84431,
+    "capital": false,
+    "id": 1659,
+    "score": 54
+  },
+  {
+    "name": "Los Angeles - Zona Norte 2",
+    "country": "Estados Unidos",
+    "region": "Estados Unidos",
+    "latitude": 34.141825,
+    "longitude": -118.218785,
+    "capital": false,
+    "id": 594,
+    "score": 50
+  },
+  {
+    "name": "Campo Grande - Centro",
+    "country": "Brasil",
+    "region": "Mato Grosso do Sul",
+    "latitude": -20.52721,
+    "longitude": -54.744127,
+    "capital": false,
+    "id": 252,
+    "score": 59
+  },
+  {
+    "name": "Santa Cruz de la Sierra - Zona Oeste 5",
+    "country": "Bolivia",
+    "region": "Bolivia",
+    "latitude": -17.722742,
+    "longitude": -63.086938,
+    "capital": false,
+    "id": 1294,
+    "score": 21
+  },
+  {
+    "name": "Belgrado - Mirante 17",
+    "country": "Servia",
+    "region": "Servia",
+    "latitude": 44.877248,
+    "longitude": 20.271502,
+    "capital": false,
+    "id": 4249,
+    "score": 92
+  },
+  {
+    "name": "Lima",
+    "country": "Peru",
+    "region": "Peru",
+    "latitude": -12.0464,
+    "longitude": -77.0428,
+    "capital": true,
+    "id": 85,
+    "score": 99
+  },
+  {
+    "name": "Taipei - Centro",
+    "country": "Taiwan",
+    "region": "Taiwan",
+    "latitude": 25.147632,
+    "longitude": 121.65581,
+    "capital": false,
+    "id": 446,
+    "score": 63
+  },
+  {
+    "name": "Abu Dhabi - Setor Universitario 14",
+    "country": "Emirados Arabes Unidos",
+    "region": "Emirados Arabes Unidos",
+    "latitude": 24.452216,
+    "longitude": 54.423941,
+    "capital": false,
+    "id": 3585,
+    "score": 92
+  },
+  {
+    "name": "Porto Velho - Mirante 17",
+    "country": "Brasil",
+    "region": "Rondonia",
+    "latitude": -8.891408,
+    "longitude": -63.788546,
+    "capital": false,
+    "id": 4102,
+    "score": 77
+  },
+  {
+    "name": "Pretoria - Distrito Historico 10",
+    "country": "Africa do Sul",
+    "region": "Africa do Sul",
+    "latitude": -25.714104,
+    "longitude": 28.058014,
+    "capital": false,
+    "id": 2584,
+    "score": 70
+  },
+  {
+    "name": "Rosario - Parque das Nacoes 13",
+    "country": "Argentina",
+    "region": "Argentina",
+    "latitude": -32.996817,
+    "longitude": -60.766039,
+    "capital": false,
+    "id": 3201,
+    "score": 53
+  },
+  {
+    "name": "Monterrey - Porto 15",
+    "country": "Mexico",
+    "region": "Mexico",
+    "latitude": 25.61993,
+    "longitude": -100.1426,
+    "capital": false,
+    "id": 3700,
+    "score": 69
+  },
+  {
+    "name": "Rosario",
+    "country": "Argentina",
+    "region": "Argentina",
+    "latitude": -32.9468,
+    "longitude": -60.6393,
+    "capital": true,
+    "id": 81,
+    "score": 94
+  },
+  {
+    "name": "Ho Chi Minh - Zona Oeste 5",
+    "country": "Vietna",
+    "region": "Vietna",
+    "latitude": 10.80358,
+    "longitude": 106.590508,
+    "capital": false,
+    "id": 1409,
+    "score": 12
+  },
+  {
+    "name": "Chennai - Bairro Novo 8",
+    "country": "India",
+    "region": "India",
+    "latitude": 13.188906,
+    "longitude": 80.353257,
+    "capital": false,
+    "id": 2138,
+    "score": 35
+  },
+  {
+    "name": "Atenas - Porto 15",
+    "country": "Grecia",
+    "region": "Grecia",
+    "latitude": 37.880351,
+    "longitude": 23.717908,
+    "capital": false,
+    "id": 3757,
+    "score": 94
+  },
+  {
+    "name": "Sao Jose dos Campos - Distrito Comercial 9",
+    "country": "Brasil",
+    "region": "Sao Paulo",
+    "latitude": -23.38107,
+    "longitude": -45.947903,
+    "capital": false,
+    "id": 2193,
+    "score": 32
+  },
+  {
+    "name": "Argel - Zona Norte 2",
+    "country": "Argelia",
+    "region": "Argelia",
+    "latitude": 36.598431,
+    "longitude": 3.106018,
+    "capital": false,
+    "id": 667,
+    "score": 52
+  }
+]

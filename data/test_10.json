@@ -1,0 +1,102 @@
+[
+  {
+    "name": "Guarulhos - Porto 15",
+    "country": "Brasil",
+    "region": "Sao Paulo",
+    "latitude": -23.429305,
+    "longitude": -46.413518,
+    "capital": false,
+    "id": 3629,
+    "score": 61
+  },
+  {
+    "name": "Luanda - Setor Industrial 6",
+    "country": "Angola",
+    "region": "Angola",
+    "latitude": -8.730706,
+    "longitude": 13.361661,
+    "capital": false,
+    "id": 1633,
+    "score": 47
+  },
+  {
+    "name": "Dakar - Porto 15",
+    "country": "Senegal",
+    "region": "Senegal",
+    "latitude": 14.859571,
+    "longitude": -17.604398,
+    "capital": false,
+    "id": 3791,
+    "score": 60
+  },
+  {
+    "name": "Acra - Parque das Nacoes 13",
+    "country": "Gana",
+    "region": "Gana",
+    "latitude": 5.488247,
+    "longitude": -0.00746,
+    "capital": false,
+    "id": 3310,
+    "score": 71
+  },
+  {
+    "name": "Casablanca - Bairro Novo 8",
+    "country": "Marrocos",
+    "region": "Marrocos",
+    "latitude": 33.528085,
+    "longitude": -7.480786,
+    "capital": false,
+    "id": 2105,
+    "score": 68
+  },
+  {
+    "name": "Manchester - Planalto 21",
+    "country": "Reino Unido",
+    "region": "Reino Unido",
+    "latitude": 53.575339,
+    "longitude": -2.313545,
+    "capital": false,
+    "id": 5179,
+    "score": 73
+  },
+  {
+    "name": "Ciudad del Este - Zona Oeste 5",
+    "country": "Paraguai",
+    "region": "Paraguai",
+    "latitude": -25.693009,
+    "longitude": -54.609436,
+    "capital": false,
+    "id": 1297,
+    "score": 85
+  },
+  {
+    "name": "Recife - Distrito Historico 10",
+    "country": "Brasil",
+    "region": "Pernambuco",
+    "latitude": -7.922339,
+    "longitude": -34.933201,
+    "capital": false,
+    "id": 2417,
+    "score": 65
+  },
+  {
+    "name": "Aman - Jardim das Flores 12",
+    "country": "Jordania",
+    "region": "Jordania",
+    "latitude": 31.774189,
+    "longitude": 35.912143,
+    "capital": false,
+    "id": 3111,
+    "score": 80
+  },
+  {
+    "name": "Ciudad del Este - Distrito Historico 10",
+    "country": "Paraguai",
+    "region": "Paraguai",
+    "latitude": -25.475606,
+    "longitude": -54.675364,
+    "capital": false,
+    "id": 2497,
+    "score": 36
+  }
+]
