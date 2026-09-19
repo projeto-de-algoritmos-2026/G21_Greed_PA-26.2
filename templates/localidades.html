@@ -1,0 +1,54 @@
+{% extends "base.html" %}
+{% block title %}Localidades — Greedy Travel Lab{% endblock %}
+{% block header %}📍 Cadastro de Localidades{% endblock %}
+{% block content %}
+<div class="section-subtitle">Consulte, filtre, edite e cadastre localidades do dataset (armazenado em <code>data/locations.json</code>).</div>
+
+<div class="card">
+  <div class="form-row">
+    <div class="form-group">
+      <label>Buscar por nome</label>
+      <input class="form-control" id="filterQuery" placeholder="Ex: Salvador">
+    </div>
+    <div class="form-group">
+      <label>Pais</label>
+      <select class="form-control" id="filterCountry"><option value="">Todos</option></select>
+    </div>
+    <div class="form-group" style="align-self:flex-end;">
+      <button class="btn" id="filterBtn" type="button">Filtrar</button>
+    </div>
+    <div class="form-group" style="align-self:flex-end;">
+      <button class="btn btn-secondary" id="newLocationBtn" type="button">+ Nova localidade</button>
+    </div>
+  </div>
+  <p class="card-subtitle" id="totalInfo"></p>
+  <div class="table-wrap">
+    <table>
+      <thead>
+        <tr><th>ID</th><th>Nome</th><th>Pais</th><th>Regiao</th><th>Latitude</th><th>Longitude</th><th></th></tr>
+      </thead>
+      <tbody id="locationsTableBody"></tbody>
+    </table>
+  </div>
+</div>
+
+<div class="card" id="formCard" style="display:none;">
+  <div class="card-title" id="formTitle">Nova localidade</div>
+  <input type="hidden" id="editId">
+  <div class="form-row">
+    <div class="form-group"><label>Nome</label><input class="form-control" id="fieldName"></div>
+    <div class="form-group"><label>Pais</label><input class="form-control" id="fieldCountry"></div>
+    <div class="form-group"><label>Regiao/Estado</label><input class="form-control" id="fieldRegion"></div>
+  </div>
+  <div class="form-row">
+    <div class="form-group"><label>Latitude</label><input class="form-control" id="fieldLat" type="number" step="0.000001"></div>
+    <div class="form-group"><label>Longitude</label><input class="form-control" id="fieldLon" type="number" step="0.000001"></div>
+    <div class="form-group"><label>Pontuacao turistica (sintetica)</label><input class="form-control" id="fieldScore" type="number" min="1" max="100" value="50"></div>
+  </div>
+  <button class="btn" id="saveLocationBtn" type="button">Salvar</button>
+  <button class="btn btn-secondary" id="cancelFormBtn" type="button">Cancelar</button>
+</div>
+{% endblock %}
+{% block scripts %}
+<script src="{{ url_for('static', filename='js/localidades.js') }}"></script>
+{% endblock %}
