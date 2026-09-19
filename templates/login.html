@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Entrar — Greedy Travel Lab</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+<div class="login-page">
+  <div class="login-card">
+    <div style="font-size:40px;">🗺️</div>
+    <h1>Greedy Travel Lab</h1>
+    <p class="subtitle">Planejador de Viagens &amp; Laboratorio de Algoritmos Ambiciosos</p>
+    <form method="POST" action="{{ url_for('login') }}">
+      <div class="form-group" style="text-align:left;">
+        <label for="username">Usuario</label>
+        <input class="form-control" id="username" name="username" placeholder="Digite qualquer usuario" autocomplete="off">
+      </div>
+      <div class="form-group" style="text-align:left;">
+        <label for="password">Senha</label>
+        <input class="form-control" id="password" name="password" type="password" placeholder="Digite qualquer senha" autocomplete="off">
+      </div>
+      <button class="btn" type="submit" style="width:100%; justify-content:center;">ENTRAR</button>
+    </form>
+    <div class="login-demo-note">
+      🔐 Autenticacao simulada para fins academicos. Nenhuma senha e validada ou armazenada — qualquer combinacao de usuario/senha da acesso a demonstracao.
+    </div>
+  </div>
+</div>
+</body>
+</html>

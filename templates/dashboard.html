@@ -1,0 +1,66 @@
+{% extends "base.html" %}
+{% block title %}Dashboard — Greedy Travel Lab{% endblock %}
+{% block header %}🏠 Dashboard{% endblock %}
+{% block content %}
+<div class="section-title">Bem-vindo(a), {{ username }}</div>
+<div class="section-subtitle">Visao geral do Planejador de Viagens e do Laboratorio de Algoritmos Ambiciosos.</div>
+
+<div class="grid grid-4">
+  <div class="stat-card">
+    <div class="stat-icon">📍</div>
+    <div class="stat-value">{{ "{:,}".format(stats.total_locations).replace(",", ".") }}</div>
+    <div class="stat-label">Localidades cadastradas</div>
+  </div>
+  <div class="stat-card">
+    <div class="stat-icon">🌎</div>
+    <div class="stat-value">{{ stats.total_countries }}</div>
+    <div class="stat-label">Paises no dataset</div>
+  </div>
+  <div class="stat-card">
+    <div class="stat-icon">🧠</div>
+    <div class="stat-value">{{ stats.total_algorithms }}</div>
+    <div class="stat-label">Algoritmos implementados</div>
+  </div>
+  <div class="stat-card">
+    <div class="stat-icon">🚀</div>
+    <div class="stat-value" id="dashExecutions">0</div>
+    <div class="stat-label">Execucoes nesta sessao</div>
+  </div>
+</div>
+
+<div class="card" style="margin-top:24px;">
+  <div class="card-title">O que este laboratorio demonstra</div>
+  <div class="card-subtitle">Cada modulo evidencia como uma decisao local (o criterio ambicioso) constroi uma solucao global.</div>
+  <div class="grid grid-3">
+    <a class="card" href="{{ url_for('planejador') }}" style="box-shadow:none;">
+      <strong>🗺️ Planejador de Viagens</strong>
+      <p style="color:var(--text-muted); font-size:13px;">Monte uma rota entre localidades reais e compare heuristicas de roteirizacao.</p>
+    </a>
+    <a class="card" href="{{ url_for('algoritmos') }}" style="box-shadow:none;">
+      <strong>🧠 Algoritmos Ambiciosos</strong>
+      <p style="color:var(--text-muted); font-size:13px;">Interval Scheduling, Partitioning, Lateness, Knapsack, Trocador e Caminhoneiro.</p>
+    </a>
+    <a class="card" href="{{ url_for('huffman_page') }}" style="box-shadow:none;">
+      <strong>🌳 Huffman</strong>
+      <p style="color:var(--text-muted); font-size:13px;">Compressao de texto com arvore de codigos construida gulosamente.</p>
+    </a>
+    <a class="card" href="{{ url_for('comparacao') }}" style="box-shadow:none;">
+      <strong>⚔️ Comparacao</strong>
+      <p style="color:var(--text-muted); font-size:13px;">Rode varios algoritmos de rota sobre o mesmo conjunto e compare resultados reais.</p>
+    </a>
+    <a class="card" href="{{ url_for('benchmarks') }}" style="box-shadow:none;">
+      <strong>📊 Benchmarks</strong>
+      <p style="color:var(--text-muted); font-size:13px;">Meça tempo e qualidade da solucao conforme o tamanho da entrada cresce.</p>
+    </a>
+    <a class="card" href="{{ url_for('contraexemplos') }}" style="box-shadow:none;">
+      <strong>⚠️ Contraexemplos</strong>
+      <p style="color:var(--text-muted); font-size:13px;">Casos onde a estrategia ambiciosa nao alcanca a solucao otima.</p>
+    </a>
+  </div>
+</div>
+{% endblock %}
+{% block scripts %}
+<script>
+document.getElementById("dashExecutions").textContent = getExecutionCount();
+</script>
+{% endblock %}
