@@ -1,0 +1,57 @@
+{% extends "base.html" %}
+{% block title %}Planejador de Viagens — Greedy Travel Lab{% endblock %}
+{% block header %}🗺️ Planejador de Viagens{% endblock %}
+{% block content %}
+<div class="section-subtitle">Selecione localidades, escolha um algoritmo ambicioso de roteirizacao e visualize a rota gerada.</div>
+
+<div class="grid" style="grid-template-columns: 360px 1fr; gap:20px; align-items:start;">
+  <div class="card">
+    <div class="card-title">Localidades da viagem</div>
+    <div class="card-subtitle">Busque e adicione localidades ou carregue a demonstracao pronta.</div>
+
+    <div class="form-group">
+      <input class="form-control" id="searchInput" placeholder="Buscar localidade (ex: Curitiba)">
+    </div>
+    <div id="searchResults" style="max-height:160px; overflow-y:auto; margin-bottom:14px;"></div>
+
+    <button class="btn btn-secondary btn-sm" id="loadDemoBtn" type="button">✨ Carregar exemplo (10 capitais)</button>
+    <button class="btn btn-secondary btn-sm" id="clearTripBtn" type="button">🗑️ Limpar</button>
+
+    <div class="card-title" style="margin-top:18px;">Roteiro atual (<span id="tripCount">0</span>)</div>
+    <div id="tripList"></div>
+
+    <div class="form-group" style="margin-top:16px;">
+      <label for="algorithmSelect">Algoritmo ambicioso</label>
+      <select class="form-control" id="algorithmSelect">
+        <option value="nearest_neighbor">Nearest Neighbor</option>
+        <option value="multi_start_nearest_neighbor">Multi-Start Nearest Neighbor</option>
+        <option value="farthest_neighbor">Farthest Neighbor</option>
+        <option value="cheapest_insertion">Cheapest Insertion</option>
+        <option value="nearest_insertion">Nearest Insertion</option>
+        <option value="farthest_insertion">Farthest Insertion</option>
+        <option value="greedy_edge_selection">Greedy Edge Selection</option>
+        <option value="clarke_wright_savings">Clarke-Wright Savings</option>
+        <option value="greedy_by_region">Estrategia Greedy por Regiao</option>
+        <option value="greedy_by_cluster">Estrategia Greedy por Cluster</option>
+        <option value="greedy_benefit_distance">Greedy por Beneficio/Distancia</option>
+      </select>
+    </div>
+    <button class="btn" id="runBtn" type="button" style="width:100%; justify-content:center;">▶️ Executar algoritmo</button>
+  </div>
+
+  <div>
+    <div class="card">
+      <div id="map"></div>
+    </div>
+
+    <div class="card" id="resultCard" style="display:none;">
+      <div class="card-title">Resultado da rota</div>
+      <div class="metric-row" id="resultMetrics"></div>
+      <div class="route-chain" id="routeChain"></div>
+    </div>
+  </div>
+</div>
+{% endblock %}
+{% block scripts %}
+<script src="{{ url_for('static', filename='js/planejador.js') }}"></script>
+{% endblock %}
