@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>{% block title %}Greedy Travel Lab{% endblock %}</title>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+<div class="app-shell">
+  <aside class="sidebar" id="sidebar">
+    <div class="sidebar-brand">
+      <span class="brand-icon">🗺️</span>
+      <div>
+        <strong>Greedy Travel Lab</strong>
+        <small>PA 26.2 — Algoritmos Ambiciosos</small>
+      </div>
+    </div>
+    <nav class="sidebar-nav">
+      <a href="{{ url_for('dashboard') }}" class="nav-item {{ 'active' if request.path == '/' else '' }}"><span>🏠</span> Dashboard</a>
+      <a href="{{ url_for('planejador') }}" class="nav-item {{ 'active' if request.path == '/planejador' else '' }}"><span>🗺️</span> Planejador de Viagens</a>
+      <a href="{{ url_for('localidades') }}" class="nav-item {{ 'active' if request.path == '/localidades' else '' }}"><span>📍</span> Localidades</a>
+      <a href="{{ url_for('algoritmos') }}" class="nav-item {{ 'active' if request.path == '/algoritmos' else '' }}"><span>🧠</span> Algoritmos</a>
+      <a href="{{ url_for('comparacao') }}" class="nav-item {{ 'active' if request.path == '/comparacao' else '' }}"><span>⚔️</span> Comparacao</a>
+      <a href="{{ url_for('benchmarks') }}" class="nav-item {{ 'active' if request.path == '/benchmarks' else '' }}"><span>📊</span> Benchmarks</a>
+      <a href="{{ url_for('huffman_page') }}" class="nav-item {{ 'active' if request.path == '/huffman' else '' }}"><span>🌳</span> Huffman</a>
+      <a href="{{ url_for('teoria') }}" class="nav-item {{ 'active' if request.path == '/teoria' else '' }}"><span>📚</span> Teoria</a>
+      <a href="{{ url_for('contraexemplos') }}" class="nav-item {{ 'active' if request.path == '/contraexemplos' else '' }}"><span>⚠️</span> Contraexemplos</a>
+      <a href="{{ url_for('sobre') }}" class="nav-item {{ 'active' if request.path == '/sobre' else '' }}"><span>ℹ️</span> Sobre o Projeto</a>
+    </nav>
+    <div class="sidebar-footer">
+      <a href="{{ url_for('logout') }}" class="nav-item logout">🚪 Sair</a>
+    </div>
+  </aside>
+
+  <div class="main-area">
+    <header class="topbar">
+      <button id="menuToggle" class="menu-toggle" aria-label="Alternar menu">☰</button>
+      <div class="topbar-title">{% block header %}{% endblock %}</div>
+      <div class="topbar-user">👤 {{ username or 'Convidado' }}</div>
+    </header>
+    <main class="content">
+      {% block content %}{% endblock %}
+    </main>
+  </div>
+</div>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.4/dist/chart.umd.min.js"></script>
+<script src="{{ url_for('static', filename='js/app.js') }}"></script>
+{% block scripts %}{% endblock %}
+</body>
+</html>
