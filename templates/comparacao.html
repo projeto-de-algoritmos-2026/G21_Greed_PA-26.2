@@ -1,0 +1,40 @@
+{% extends "base.html" %}
+{% block title %}Comparacao — Greedy Travel Lab{% endblock %}
+{% block header %}⚔️ Comparacao de Algoritmos{% endblock %}
+{% block content %}
+<div class="section-subtitle">Selecione localidades e varios algoritmos de roteirizacao para comparar resultados reais lado a lado.</div>
+
+<div class="card">
+  <div class="form-group">
+    <label>Buscar e adicionar localidade</label>
+    <input class="form-control" id="searchInput" placeholder="Ex: Lisboa">
+  </div>
+  <div id="searchResults" style="max-height:140px; overflow-y:auto; margin-bottom:10px;"></div>
+  <button class="btn btn-secondary btn-sm" id="loadDemoBtn" type="button">✨ Carregar exemplo (10 capitais)</button>
+  <button class="btn btn-secondary btn-sm" id="clearBtn" type="button">🗑️ Limpar</button>
+  <div id="tripSummary" style="margin-top:10px; font-size:13px; color:var(--text-muted);"></div>
+</div>
+
+<div class="card">
+  <div class="card-title">Algoritmos a comparar</div>
+  <div class="checkbox-list" id="algorithmChecklist"></div>
+  <button class="btn" id="runCompareBtn" type="button" style="margin-top:16px;">⚔️ Executar comparacao</button>
+</div>
+
+<div class="card" id="resultCard" style="display:none;">
+  <div class="card-title">Resultados</div>
+  <div class="table-wrap">
+    <table id="compareTable">
+      <thead><tr><th>Algoritmo</th><th>Distancia (km)</th><th>Tempo</th><th>Comparacoes</th><th>Cidades</th></tr></thead>
+      <tbody></tbody>
+    </table>
+  </div>
+  <div class="chart-wrap"><canvas id="compareChart"></canvas></div>
+</div>
+{% endblock %}
+{% block scripts %}
+<script>
+const AVAILABLE_ALGORITHMS = {{ algorithms | tojson }};
+</script>
+<script src="{{ url_for('static', filename='js/comparacao.js') }}"></script>
+{% endblock %}
