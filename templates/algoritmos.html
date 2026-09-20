@@ -1,0 +1,139 @@
+{% extends "base.html" %}
+{% block title %}Algoritmos — Greedy Travel Lab{% endblock %}
+{% block header %}🧠 Laboratorio de Algoritmos Ambiciosos{% endblock %}
+{% block content %}
+<div class="section-subtitle">Execute e visualize cada algoritmo ambicioso da disciplina sobre casos gerados automaticamente.</div>
+
+<div class="tabs">
+  <button class="tab-btn active" data-tab="interval-scheduling">Interval Scheduling</button>
+  <button class="tab-btn" data-tab="interval-partitioning">Interval Partitioning</button>
+  <button class="tab-btn" data-tab="lateness">Minimize Lateness</button>
+  <button class="tab-btn" data-tab="knapsack">Knapsack Fracionario</button>
+  <button class="tab-btn" data-tab="trocador">Trocador</button>
+  <button class="tab-btn" data-tab="caminhoneiro">Caminhoneiro</button>
+</div>
+
+<div class="tab-panel" id="panel-interval-scheduling">
+  <div class="card">
+    <div class="card-title">Interval Scheduling</div>
+    <div class="card-subtitle">Criterio ambicioso: selecionar sempre a atividade de menor horario de termino compativel.</div>
+    <div class="form-row">
+      <div class="form-group"><label>Quantidade</label><input class="form-control" id="is-count" type="number" value="10" min="1" max="60"></div>
+      <div class="form-group"><label>Seed</label><input class="form-control" id="is-seed" type="number" value="42"></div>
+      <div class="form-group" style="align-self:flex-end;"><button class="btn btn-secondary" id="is-generate">🎲 Gerar caso</button></div>
+      <div class="form-group" style="align-self:flex-end;"><button class="btn" id="is-solve">▶️ Resolver</button></div>
+    </div>
+    <div id="is-metrics" class="metric-row"></div>
+    <div id="is-chart"></div>
+  </div>
+</div>
+
+<div class="tab-panel" id="panel-interval-partitioning" style="display:none;">
+  <div class="card">
+    <div class="card-title">Interval Partitioning</div>
+    <div class="card-subtitle">Criterio ambicioso: ordenar por inicio e reutilizar o primeiro recurso que ja estiver livre (heap de termino).</div>
+    <div class="form-row">
+      <div class="form-group"><label>Quantidade</label><input class="form-control" id="ip-count" type="number" value="12" min="1" max="60"></div>
+      <div class="form-group"><label>Seed</label><input class="form-control" id="ip-seed" type="number" value="42"></div>
+      <div class="form-group" style="align-self:flex-end;"><button class="btn btn-secondary" id="ip-generate">🎲 Gerar caso</button></div>
+      <div class="form-group" style="align-self:flex-end;"><button class="btn" id="ip-solve">▶️ Resolver</button></div>
+    </div>
+    <div id="ip-metrics" class="metric-row"></div>
+    <div id="ip-chart"></div>
+  </div>
+</div>
+
+<div class="tab-panel" id="panel-lateness" style="display:none;">
+  <div class="card">
+    <div class="card-title">Scheduling to Minimize Lateness</div>
+    <div class="card-subtitle">Criterio ambicioso: ordenar por deadline crescente (earliest deadline first).</div>
+    <div class="form-row">
+      <div class="form-group"><label>Quantidade</label><input class="form-control" id="la-count" type="number" value="8" min="1" max="40"></div>
+      <div class="form-group"><label>Seed</label><input class="form-control" id="la-seed" type="number" value="42"></div>
+      <div class="form-group" style="align-self:flex-end;"><button class="btn btn-secondary" id="la-generate">🎲 Gerar caso</button></div>
+      <div class="form-group" style="align-self:flex-end;"><button class="btn" id="la-solve">▶️ Resolver</button></div>
+    </div>
+    <div class="grid grid-2">
+      <div>
+        <h4>Ordem arbitraria (entrada)</h4>
+        <div id="la-metrics-arbitrary" class="metric-row"></div>
+        <div class="table-wrap"><table id="la-table-arbitrary"><thead><tr><th>ID</th><th>Processamento</th><th>Deadline</th><th>Conclusao</th><th>Atraso</th></tr></thead><tbody></tbody></table></div>
+      </div>
+      <div>
+        <h4>Ordem ambiciosa (EDF)</h4>
+        <div id="la-metrics-greedy" class="metric-row"></div>
+        <div class="table-wrap"><table id="la-table-greedy"><thead><tr><th>ID</th><th>Processamento</th><th>Deadline</th><th>Conclusao</th><th>Atraso</th></tr></thead><tbody></tbody></table></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="tab-panel" id="panel-knapsack" style="display:none;">
+  <div class="card">
+    <div class="card-title">Knapsack com itens divisiveis (fracionaria)</div>
+    <div class="card-subtitle">Criterio ambicioso: ordenar por valor especifico (valor/peso) decrescente.</div>
+    <div class="form-row">
+      <div class="form-group"><label>Quantidade de itens</label><input class="form-control" id="kn-count" type="number" value="6" min="1" max="30"></div>
+      <div class="form-group"><label>Capacidade (kg)</label><input class="form-control" id="kn-capacity" type="number" value="100"></div>
+      <div class="form-group"><label>Seed</label><input class="form-control" id="kn-seed" type="number" value="42"></div>
+      <div class="form-group" style="align-self:flex-end;"><button class="btn btn-secondary" id="kn-generate">🎲 Gerar itens</button></div>
+      <div class="form-group" style="align-self:flex-end;"><button class="btn" id="kn-solve">▶️ Resolver</button></div>
+    </div>
+    <div id="kn-metrics" class="metric-row"></div>
+    <div class="knapsack-bar" id="kn-bar"></div>
+    <div class="table-wrap" style="margin-top:14px;">
+      <table id="kn-table"><thead><tr><th>Item</th><th>Peso</th><th>Valor</th><th>Valor/kg</th><th>Fracao usada</th></tr></thead><tbody></tbody></table>
+    </div>
+  </div>
+</div>
+
+<div class="tab-panel" id="panel-trocador" style="display:none;">
+  <div class="card">
+    <div class="card-title">Algoritmo do Trocador</div>
+    <div class="card-subtitle">Criterio ambicioso: sempre escolher a maior moeda/nota menor ou igual ao valor restante.</div>
+    <div class="form-row">
+      <div class="form-group"><label>Valor a trocar</label><input class="form-control" id="tr-amount" type="number" value="287"></div>
+      <div class="form-group" style="flex:2;"><label>Denominacoes (separadas por virgula)</label><input class="form-control" id="tr-denoms" value="100,50,20,10,5,2,1"></div>
+      <div class="form-group" style="align-self:flex-end;"><button class="btn" id="tr-solve">▶️ Resolver</button></div>
+    </div>
+    <div style="margin-bottom:14px;">
+      <span style="font-size:12.5px; color:var(--text-muted); margin-right:8px;">Casos prontos:</span>
+      <span id="tr-cases"></span>
+    </div>
+    <div id="tr-metrics" class="metric-row"></div>
+    <div class="grid grid-2">
+      <div>
+        <h4>Solucao gulosa</h4>
+        <div class="table-wrap"><table id="tr-table-greedy"><thead><tr><th>Denominacao</th><th>Quantidade</th></tr></thead><tbody></tbody></table></div>
+      </div>
+      <div>
+        <h4>Solucao otima (programacao dinamica)</h4>
+        <div class="table-wrap"><table id="tr-table-optimal"><thead><tr><th>Denominacao</th><th>Quantidade</th></tr></thead><tbody></tbody></table></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="tab-panel" id="panel-caminhoneiro" style="display:none;">
+  <div class="card">
+    <div class="card-title">Algoritmo do Caminhoneiro</div>
+    <div class="card-subtitle">Criterio ambicioso: avancar o maximo possivel e abastecer sempre no posto mais distante ainda alcancavel.</div>
+    <div class="form-row">
+      <div class="form-group"><label>Distancia total (km)</label><input class="form-control" id="ca-distance" type="number" value="1000"></div>
+      <div class="form-group"><label>Capacidade do tanque (litros)</label><input class="form-control" id="ca-capacity" type="number" value="15"></div>
+      <div class="form-group"><label>Consumo (km/litro)</label><input class="form-control" id="ca-consumption" type="number" value="10" step="0.1"></div>
+      <div class="form-group"><label>Seed</label><input class="form-control" id="ca-seed" type="number" value="42"></div>
+    </div>
+    <div class="form-row">
+      <div class="form-group" style="align-self:flex-end;"><button class="btn btn-secondary" id="ca-generate">🎲 Gerar postos</button></div>
+      <div class="form-group" style="align-self:flex-end;"><button class="btn" id="ca-solve">▶️ Resolver</button></div>
+    </div>
+    <div id="ca-metrics" class="metric-row"></div>
+    <div id="ca-route" style="margin:16px 0;"></div>
+    <div class="table-wrap"><table id="ca-table"><thead><tr><th>Posto</th><th>Posicao (km)</th><th>Combustivel adicionado (L)</th></tr></thead><tbody></tbody></table></div>
+  </div>
+</div>
+{% endblock %}
+{% block scripts %}
+<script src="{{ url_for('static', filename='js/algoritmos.js') }}"></script>
+{% endblock %}
