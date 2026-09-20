@@ -1,0 +1,68 @@
+{% extends "base.html" %}
+{% block title %}Benchmarks — Greedy Travel Lab{% endblock %}
+{% block header %}📊 Benchmarks{% endblock %}
+{% block content %}
+<div class="section-subtitle">Meça tempo de execucao, distancia e numero de comparacoes conforme o tamanho da entrada cresce. Todos os valores sao calculados em tempo real.</div>
+
+<div class="tabs">
+  <button class="tab-btn active" data-tab="bench-travel">Algoritmos de Rota (TSP)</button>
+  <button class="tab-btn" data-tab="bench-classic">Algoritmos Classicos</button>
+</div>
+
+<div class="tab-panel" id="panel-bench-travel">
+  <div class="card">
+    <div class="card-title">Algoritmos de roteirizacao</div>
+    <div class="warning-box">Algoritmos com complexidade cubica (ex: Cheapest Insertion) e algoritmos baseados na ordenacao de todos os pares de arestas (Greedy Edge Selection, Clarke-Wright Savings) possuem um limite pratico de localidades nesta demonstracao interativa — o sistema informa quando o limite e excedido em vez de travar o servidor.</div>
+    <div class="checkbox-list" id="travelAlgorithmChecklist"></div>
+    <div style="margin-top:16px;">
+      <label style="font-size:12.5px; font-weight:600; color:var(--text-muted);">Tamanhos de entrada</label>
+      <div class="checkbox-list" id="travelSizesChecklist"></div>
+    </div>
+    <button class="btn" id="runTravelBenchBtn" type="button" style="margin-top:16px;">📈 Executar benchmark</button>
+  </div>
+
+  <div class="card" id="travelBenchResult" style="display:none;">
+    <div class="card-title">Tempo de execucao x Tamanho da entrada</div>
+    <div class="chart-wrap"><canvas id="travelTimeChart"></canvas></div>
+    <div class="card-title" style="margin-top:24px;">Distancia da solucao x Tamanho da entrada</div>
+    <div class="chart-wrap"><canvas id="travelDistanceChart"></canvas></div>
+    <div class="table-wrap" style="margin-top:20px;">
+      <table id="travelBenchTable"><thead><tr><th>Algoritmo</th><th>Tamanho</th><th>Distancia (km)</th><th>Tempo</th><th>Comparacoes</th></tr></thead><tbody></tbody></table>
+    </div>
+  </div>
+</div>
+
+<div class="tab-panel" id="panel-bench-classic" style="display:none;">
+  <div class="card">
+    <div class="card-title">Algoritmos classicos (Semana 1)</div>
+    <div class="form-group">
+      <label>Algoritmo</label>
+      <select class="form-control" id="classicKind">
+        <option value="interval_scheduling">Interval Scheduling</option>
+        <option value="interval_partitioning">Interval Partitioning</option>
+        <option value="lateness">Scheduling to Minimize Lateness</option>
+        <option value="knapsack">Knapsack Fracionario</option>
+      </select>
+    </div>
+    <div style="margin-top:10px;">
+      <label style="font-size:12.5px; font-weight:600; color:var(--text-muted);">Tamanhos de entrada</label>
+      <div class="checkbox-list" id="classicSizesChecklist"></div>
+    </div>
+    <button class="btn" id="runClassicBenchBtn" type="button" style="margin-top:16px;">📈 Executar benchmark</button>
+  </div>
+
+  <div class="card" id="classicBenchResult" style="display:none;">
+    <div class="card-title">Tempo de execucao x Tamanho da entrada</div>
+    <div class="chart-wrap"><canvas id="classicTimeChart"></canvas></div>
+    <div class="table-wrap" style="margin-top:20px;">
+      <table id="classicBenchTable"><thead><tr><th>Tamanho</th><th>Tempo</th><th>Comparacoes</th></tr></thead><tbody></tbody></table>
+    </div>
+  </div>
+</div>
+{% endblock %}
+{% block scripts %}
+<script>
+const AVAILABLE_TRAVEL_ALGORITHMS = {{ algorithms | tojson }};
+</script>
+<script src="{{ url_for('static', filename='js/benchmarks.js') }}"></script>
+{% endblock %}
