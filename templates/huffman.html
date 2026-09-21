@@ -1,0 +1,44 @@
+{% extends "base.html" %}
+{% block title %}Huffman — Greedy Travel Lab{% endblock %}
+{% block header %}🌳 Codificacao de Huffman{% endblock %}
+{% block content %}
+<div class="section-subtitle">Criterio ambicioso: unir sempre os dois nos de menor frequencia usando uma fila de prioridade (heap).</div>
+
+<div class="card">
+  <div class="form-group">
+    <label>Texto a codificar</label>
+    <textarea class="form-control" id="huffmanText" rows="4">este e um exemplo de texto para demonstrar a codificacao de huffman em um planejador de viagens</textarea>
+  </div>
+  <button class="btn" id="huffmanSolveBtn" type="button">▶️ Codificar</button>
+</div>
+
+<div class="card" id="huffmanResult" style="display:none;">
+  <div class="metric-row" id="huffmanMetrics"></div>
+
+  <div class="grid grid-2">
+    <div>
+      <h4>Frequencia dos caracteres</h4>
+      <div class="table-wrap"><table id="freqTable"><thead><tr><th>Caractere</th><th>Frequencia</th></tr></thead><tbody></tbody></table></div>
+    </div>
+    <div>
+      <h4>Codigos gerados (prefixo, decodificacao unica)</h4>
+      <div class="table-wrap"><table id="codesTable"><thead><tr><th>Caractere</th><th>Codigo</th></tr></thead><tbody></tbody></table></div>
+    </div>
+  </div>
+
+  <h4 style="margin-top:20px;">Arvore de Huffman</h4>
+  <div class="tree-canvas"><svg id="huffmanTree" width="1100" height="420"></svg></div>
+
+  <h4>Texto original</h4>
+  <pre id="originalText" style="background:#0f1424; color:#d7ddf5; padding:12px; border-radius:8px; overflow-x:auto;"></pre>
+
+  <h4>Texto codificado (bits)</h4>
+  <pre id="encodedText" style="background:#0f1424; color:#d7ddf5; padding:12px; border-radius:8px; overflow-x:auto; word-break:break-all;"></pre>
+
+  <h4>Texto decodificado</h4>
+  <pre id="decodedText" style="background:#0f1424; color:#d7ddf5; padding:12px; border-radius:8px; overflow-x:auto;"></pre>
+</div>
+{% endblock %}
+{% block scripts %}
+<script src="{{ url_for('static', filename='js/huffman.js') }}"></script>
+{% endblock %}
