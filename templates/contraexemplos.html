@@ -1,0 +1,70 @@
+{% extends "base.html" %}
+{% block title %}Contraexemplos — Greedy Travel Lab{% endblock %}
+{% block header %}⚠️ Contraexemplos{% endblock %}
+{% block content %}
+<div class="section-subtitle">Estrategias ambiciosas nem sempre produzem a solucao otima. Esta pagina reune casos onde a decisao localmente boa leva a um resultado pior que o otimo conhecido.</div>
+
+<div class="card">
+  <div class="card-title">1. Algoritmo do Trocador — sistemas de moedas nao canonicos</div>
+  <p class="card-subtitle">O criterio "sempre pegar a maior moeda possivel" so e otimo para sistemas de moedas canonicos (como o sistema Real). Execute os casos abaixo e compare com a solucao otima calculada por programacao dinamica.</p>
+  <div id="trocadorCases"></div>
+</div>
+
+<div class="card">
+  <div class="card-title">2. Mochila 0/1 (itens indivisiveis) — o criterio da fracionaria falha</div>
+  <p class="card-subtitle">A estrategia ambiciosa por valor especifico e comprovadamente otima apenas quando os itens PODEM ser fracionados. Quando os itens sao indivisiveis (problema classico da mochila 0/1), a mesma estrategia pode falhar.</p>
+  <table>
+    <thead><tr><th>Item</th><th>Peso</th><th>Valor</th><th>Valor/kg</th></tr></thead>
+    <tbody>
+      <tr><td>A</td><td>10</td><td>60</td><td>6,00</td></tr>
+      <tr><td>B</td><td>20</td><td>100</td><td>5,00</td></tr>
+      <tr><td>C</td><td>30</td><td>120</td><td>4,00</td></tr>
+    </tbody>
+  </table>
+  <p>Capacidade da mochila: <strong>50</strong>. O guloso ordena por valor/kg (A, B, C) e tenta levar itens inteiros:</p>
+  <pre>Passo 1: leva A inteiro (peso 10, valor 60) — capacidade restante 40
+Passo 2: leva B inteiro (peso 20, valor 100) — capacidade restante 20
+Passo 3: C pesa 30, nao cabe nos 20 restantes — descartado
+Resultado guloso (0/1): valor = 160, peso usado = 30</pre>
+  <p>Solucao otima (obtida avaliando todas as combinacoes possiveis):</p>
+  <pre>B + C = peso 50, valor 220</pre>
+  <div class="metric-row">
+    <div class="metric-pill"><div class="value">160</div><div class="label">Valor do guloso (0/1)</div></div>
+    <div class="metric-pill"><div class="value">220</div><div class="label">Valor otimo (0/1)</div></div>
+    <div class="metric-pill"><div class="value"><span class="badge badge-danger">27% pior</span></div><div class="label">Diferenca</div></div>
+  </div>
+  <p style="color:var(--text-muted); font-size:13px;">Observacao: no modulo de <a href="{{ url_for('algoritmos') }}">Knapsack Fracionario</a> desta aplicacao, os itens PODEM ser fracionados — nesse caso o criterio ambicioso e comprovadamente otimo, como demonstrado na pagina de Teoria.</p>
+</div>
+
+<div class="card">
+  <div class="card-title">3. Nearest Neighbor (TSP) — a escolha local nem sempre e globalmente boa</div>
+  <p class="card-subtitle">Usando 5 pontos ilustrativos em um plano cartesiano (coordenadas nao geograficas, apenas para fins didaticos), o Nearest Neighbor iniciando em pontos diferentes pode produzir rotas de tamanhos diferentes — nenhuma delas com garantia de ser a otima.</p>
+  <table>
+    <thead><tr><th>Ponto</th><th>X</th><th>Y</th></tr></thead>
+    <tbody>
+      <tr><td>A</td><td>0</td><td>0</td></tr>
+      <tr><td>B</td><td>1</td><td>0</td></tr>
+      <tr><td>C</td><td>2,2</td><td>0</td></tr>
+      <tr><td>D</td><td>2,2</td><td>3</td></tr>
+      <tr><td>E</td><td>0</td><td>3</td></tr>
+    </tbody>
+  </table>
+  <div class="grid grid-2" style="margin-top:14px;">
+    <div class="metric-pill">
+      <div class="value">10,40</div>
+      <div class="label">Rota otima (A→B→C→D→E→A)</div>
+    </div>
+    <div class="metric-pill">
+      <div class="value">11,56</div>
+      <div class="label">Nearest Neighbor a partir de B (B→A→C→D→E→B)</div>
+    </div>
+  </div>
+  <p style="margin-top:12px; color:var(--text-muted); font-size:13px;">Ao partir de B, o Nearest Neighbor escolhe A por ser o vizinho mais proximo, mas essa escolha local isola A da rota principal e forca um retorno caro no final — cerca de <strong>11% mais longo</strong> que a rota otima. E por isso que o Laboratorio disponibiliza o <a href="{{ url_for('algoritmos') }}">Multi-Start Nearest Neighbor</a> e outras heuristicas alternativas.</p>
+</div>
+{% endblock %}
+{% block scripts %}
+<script>
+const TROCADOR_CASES = {{ trocador_cases | tojson }};
+</script>
+<script src="{{ url_for('static', filename='js/contraexemplos.js') }}"></script>
+{% endblock %}

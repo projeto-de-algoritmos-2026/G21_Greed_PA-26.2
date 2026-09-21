@@ -1,0 +1,41 @@
+{% extends "base.html" %}
+{% block title %}Sobre — Greedy Travel Lab{% endblock %}
+{% block header %}ℹ️ Sobre o Projeto{% endblock %}
+{% block content %}
+<div class="card">
+  <div class="card-title">Greedy Travel Lab</div>
+  <p>Projeto academico desenvolvido para a disciplina de Projeto de Algoritmos, modulo <strong>Algoritmos Ambiciosos</strong>, combinando um Planejador de Viagens interativo com um Laboratorio experimental de algoritmos gulosos.</p>
+  <p>Repositorio de referencia: <code>projeto-de-algoritmos-2026/G21_Greed_PA-26.2</code></p>
+</div>
+
+<div class="card">
+  <div class="card-title">Objetivo academico</div>
+  <p>Demonstrar, de forma visual e experimental, que uma estrategia ambiciosa toma decisoes locais buscando construir uma solucao global — em alguns problemas essa solucao e comprovadamente otima (Interval Scheduling, Interval Partitioning, Scheduling to Minimize Lateness, Knapsack Fracionario, Huffman); em outros, e apenas uma boa heuristica (heuristicas de roteirizacao) ou pode falhar (Algoritmo do Trocador em sistemas nao canonicos).</p>
+</div>
+
+<div class="card">
+  <div class="card-title">Tecnologias utilizadas</div>
+  <table>
+    <thead><tr><th>Camada</th><th>Tecnologia</th></tr></thead>
+    <tbody>
+      <tr><td>Backend</td><td>Python + Flask</td></tr>
+      <tr><td>Frontend</td><td>HTML, CSS e JavaScript (vanilla)</td></tr>
+      <tr><td>Mapas</td><td>Leaflet + OpenStreetMap</td></tr>
+      <tr><td>Graficos</td><td>Chart.js</td></tr>
+      <tr><td>Dados</td><td>Arquivos JSON locais (sem banco de dados)</td></tr>
+      <tr><td>Testes</td><td>pytest</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<div class="card">
+  <div class="card-title">Contribuidores</div>
+  <table>
+    <thead><tr><th>Nome</th><th>Matricula</th><th>Contato</th></tr></thead>
+    <tbody>
+      <tr><td>Jesus Gabriel Carvalho Ventura</td><td>211062956</td><td>jgabrielcv1903@gmail.com</td></tr>
+      <tr><td>Gustavo Costa</td><td>211061814</td><td>gucosta1719@gmail.com</td></tr>
+    </tbody>
+  </table>
+</div>
+{% endblock %}

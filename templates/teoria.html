@@ -1,0 +1,123 @@
+{% extends "base.html" %}
+{% block title %}Teoria — Greedy Travel Lab{% endblock %}
+{% block header %}📚 Teoria dos Algoritmos Ambiciosos{% endblock %}
+{% block content %}
+<div class="section-subtitle">Um algoritmo ambicioso (greedy) constroi uma solucao passo a passo, escolhendo a cada etapa a opcao que parece melhor naquele momento (o criterio ambicioso), sem reconsiderar decisoes anteriores. Ele so produz a solucao otima quando o problema possui a propriedade de escolha ambiciosa e subestrutura otima.</div>
+
+<div class="theory-block card">
+  <h3>1. Interval Scheduling</h3>
+  <p><strong>Problema:</strong> dado um conjunto de atividades com horario de inicio e termino, selecionar o maior numero possivel de atividades que nao se sobrepoem.</p>
+  <p><strong>Criterio ambicioso:</strong> ordenar as atividades por horario de termino crescente e selecionar sempre a proxima atividade compativel com a ultima selecionada.</p>
+  <p><strong>Pseudocodigo:</strong></p>
+  <pre>ordenar atividades por termino crescente
+ultimo_fim = -infinito
+para cada atividade em ordem:
+    se atividade.inicio >= ultimo_fim:
+        selecionar(atividade)
+        ultimo_fim = atividade.fim</pre>
+  <p><strong>Complexidade:</strong> O(n log n) devido a ordenacao.</p>
+  <p><strong>Corretude (esboco):</strong> argumento de troca (exchange argument) — qualquer solucao otima pode ser transformada, sem perda, para incluir a atividade de menor horario de termino, pois ela deixa o maior espaco livre possivel para as proximas escolhas.</p>
+</div>
+
+<div class="theory-block card">
+  <h3>2. Interval Partitioning</h3>
+  <p><strong>Problema:</strong> dado um conjunto de atividades com inicio e termino, alocar o menor numero possivel de recursos (salas, maquinas) de forma que nenhum recurso tenha duas atividades sobrepostas.</p>
+  <p><strong>Criterio ambicioso:</strong> ordenar por horario de inicio crescente; para cada atividade, alocar o recurso disponivel mais cedo (usando uma fila de prioridade/heap pelos horarios de termino); se nenhum recurso estiver livre, abrir um novo recurso.</p>
+  <p><strong>Pseudocodigo:</strong></p>
+  <pre>ordenar atividades por inicio crescente
+heap = fila de prioridade vazia (termino, recurso)
+para cada atividade em ordem:
+    se heap nao vazio e min(heap).termino <= atividade.inicio:
+        reutilizar o recurso do topo do heap
+    senao:
+        abrir novo recurso
+    atualizar heap com o novo termino</pre>
+  <p><strong>Complexidade:</strong> O(n log n).</p>
+  <p><strong>Corretude:</strong> o numero minimo de recursos necessarios e igual a profundidade maxima do conjunto de intervalos (numero maximo de intervalos que se sobrepoem em um mesmo instante). O algoritmo ambicioso nunca abre mais recursos do que essa profundidade.</p>
+</div>
+
+<div class="theory-block card">
+  <h3>3. Scheduling to Minimize Lateness</h3>
+  <p><strong>Problema:</strong> dado um conjunto de tarefas com tempo de processamento e deadline, ordenar as tarefas (executadas uma de cada vez, sem interrupcao) minimizando o atraso maximo.</p>
+  <p><strong>Criterio ambicioso:</strong> ordenar as tarefas por deadline crescente (Earliest Deadline First).</p>
+  <p><strong>Pseudocodigo:</strong></p>
+  <pre>ordenar tarefas por deadline crescente
+tempo_atual = 0
+para cada tarefa em ordem:
+    tempo_atual += tarefa.processamento
+    atraso = max(0, tempo_atual - tarefa.deadline)</pre>
+  <p><strong>Complexidade:</strong> O(n log n).</p>
+  <p><strong>Corretude:</strong> se existirem duas tarefas i, j com deadline(i) &lt;= deadline(j) mas j agendada antes de i (uma inversao), trocar i e j nao aumenta o atraso maximo. Repetindo essa troca ate remover todas as inversoes chega-se a ordenacao por deadline, que e portanto otima.</p>
+</div>
+
+<div class="theory-block card">
+  <h3>4. Knapsack com itens divisiveis (fracionaria)</h3>
+  <p><strong>Problema:</strong> dada uma mochila de capacidade C e itens com peso e valor, maximizar o valor total transportado, podendo usar fracoes de um item.</p>
+  <p><strong>Criterio ambicioso:</strong> ordenar os itens por valor especifico (valor/peso) decrescente e preencher a mochila na ordem, usando uma fracao do ultimo item se necessario.</p>
+  <p><strong>Pseudocodigo:</strong></p>
+  <pre>ordenar itens por valor/peso decrescente
+capacidade_restante = C
+para cada item em ordem:
+    fracao = min(1, capacidade_restante / item.peso)
+    levar fracao do item
+    capacidade_restante -= item.peso * fracao</pre>
+  <p><strong>Complexidade:</strong> O(n log n).</p>
+  <p><strong>Corretude:</strong> como itens podem ser fracionados, qualquer solucao que nao priorize o maior valor especifico pode ser melhorada trocando uma unidade de peso de um item de menor valor especifico por um de maior — argumento de troca direto.</p>
+  <p><strong>Importante:</strong> essa estrategia NAO e otima para a mochila 0/1 (itens indivisiveis), que exige programacao dinamica.</p>
+</div>
+
+<div class="theory-block card">
+  <h3>5. Algoritmo do Trocador (Coin Change)</h3>
+  <p><strong>Problema:</strong> dado um valor e um conjunto de denominacoes, formar o valor usando o menor numero de moedas/notas.</p>
+  <p><strong>Criterio ambicioso:</strong> em cada passo, usar a maior denominacao que seja menor ou igual ao valor restante.</p>
+  <p><strong>Complexidade:</strong> O(n) onde n e o numero de denominacoes (apos ordenar).</p>
+  <p><strong>Quando funciona:</strong> a estrategia ambiciosa e otima para sistemas monetarios canonicos, como o sistema real brasileiro (100, 50, 20, 10, 5, 2, 1).</p>
+  <p><strong>Quando falha:</strong> para denominacoes nao canonicas, como {1, 3, 4} formando o valor 6 — o guloso usa 4+1+1 (3 moedas), mas a solucao otima e 3+3 (2 moedas). Veja a pagina <a href="{{ url_for('contraexemplos') }}">Contraexemplos</a>.</p>
+</div>
+
+<div class="theory-block card">
+  <h3>6. Algoritmo do Caminhoneiro (abastecimento)</h3>
+  <p><strong>Problema:</strong> dado um veiculo com autonomia limitada (capacidade do tanque x consumo) e uma sequencia de postos ao longo de uma rota, minimizar o numero de paradas para completar a viagem.</p>
+  <p><strong>Criterio ambicioso:</strong> avancar sempre o maximo possivel; quando for necessario abastecer, escolher o posto mais distante dentro do alcance atual (e nao o mais proximo).</p>
+  <p><strong>Complexidade:</strong> O(n) com os postos ja ordenados por posicao.</p>
+  <p><strong>Corretude (esboco):</strong> abastecer no posto mais distante alcancavel maximiza o alcance remanescente apos cada parada, dominando qualquer outra escolha de parada — argumento de troca por dominancia.</p>
+</div>
+
+<div class="theory-block card">
+  <h3>7. Huffman</h3>
+  <p><strong>Problema:</strong> dado um texto, construir um codigo binario de comprimento variavel, livre de prefixo (prefix-free), que minimize o comprimento medio da codificacao.</p>
+  <p><strong>Criterio ambicioso:</strong> unir repetidamente os dois nos (caracteres ou sub-arvores) de menor frequencia, usando uma fila de prioridade (heap), ate restar apenas um no raiz.</p>
+  <p><strong>Pseudocodigo:</strong></p>
+  <pre>heap = um no folha por caractere, com sua frequencia
+enquanto heap tiver mais de 1 no:
+    a = extrair_minimo(heap)
+    b = extrair_minimo(heap)
+    novo = no interno com filhos a, b e frequencia a.freq + b.freq
+    inserir(heap, novo)
+raiz = unico no restante</pre>
+  <p><strong>Complexidade:</strong> O(n log n), onde n e o numero de simbolos distintos.</p>
+  <p><strong>Propriedade de codigo prefixo:</strong> como todo caractere fica em uma folha da arvore binaria, nenhum codigo e prefixo de outro, garantindo decodificacao unica ao percorrer a arvore bit a bit.</p>
+  <p><strong>Corretude:</strong> a prova classica (Huffman, 1952) mostra por inducao que unir sempre os dois nos de menor frequencia produz uma arvore de custo minimo (menor comprimento medio ponderado pelas frequencias).</p>
+</div>
+
+<div class="theory-block card">
+  <h3>8. Algoritmos Bonus para o Planejador de Viagens (TSP)</h3>
+  <p>O Problema do Caixeiro Viajante (TSP) e NP-dificil; nenhuma das estrategias abaixo garante a rota otima, mas todas usam decisoes ambiciosas para construir rapidamente uma solucao de boa qualidade.</p>
+  <table>
+    <thead><tr><th>Algoritmo</th><th>Criterio ambicioso</th></tr></thead>
+    <tbody>
+      <tr><td>Nearest Neighbor</td><td>ir sempre para a localidade nao visitada mais proxima da atual</td></tr>
+      <tr><td>Multi-Start Nearest Neighbor</td><td>repetir Nearest Neighbor a partir de varios pontos e ficar com a melhor rota</td></tr>
+      <tr><td>Farthest Neighbor</td><td>ir sempre para a localidade nao visitada mais distante da atual</td></tr>
+      <tr><td>Cheapest Insertion</td><td>inserir a cada passo a localidade e posicao que geram o menor aumento de custo</td></tr>
+      <tr><td>Nearest Insertion</td><td>inserir a localidade mais proxima da rota, na melhor posicao</td></tr>
+      <tr><td>Farthest Insertion</td><td>inserir a localidade mais distante da rota, na melhor posicao</td></tr>
+      <tr><td>Greedy Edge Selection</td><td>ordenar todas as arestas por distancia e adiciona-las evitando graus invalidos e ciclos prematuros</td></tr>
+      <tr><td>Clarke-Wright Savings</td><td>unir rotas priorizando o maior ganho savings(i,j) = d(deposito,i) + d(deposito,j) - d(i,j)</td></tr>
+      <tr><td>Greedy por Regiao</td><td>visitar a regiao geografica mais proxima ainda nao visitada</td></tr>
+      <tr><td>Greedy por Cluster</td><td>agrupar localidades proximas em clusters e rotear entre os centroides</td></tr>
+      <tr><td>Greedy por Beneficio/Distancia</td><td>escolher a proxima localidade que maximiza beneficio/distancia</td></tr>
+    </tbody>
+  </table>
+</div>
+{% endblock %}
